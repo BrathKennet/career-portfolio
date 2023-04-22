@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Paytone One';
+  src: url('../fonts/PaytoneOne-Regular.ttf') format('truetype');
+}
+
+.section_title {
+  font-family: 'Paytone One', sans-serif;
+  text-shadow: -5px 5px 4px #C00B62;
+}
+
+.section_subtitle {
+  font-family: 'Paytone One', sans-serif;
+  text-shadow: -5px 5px 4px #C00B62;
+}
