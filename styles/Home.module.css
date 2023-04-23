@@ -1,7 +1,4 @@
-@font-face {
-  font-family: 'Paytone One';
-  src: url('../fonts/PaytoneOne-Regular.ttf') format('truetype');
-}
+@import url('./Fonts.module.css');
 
 .section_title {
   font-family: 'Paytone One', sans-serif;
