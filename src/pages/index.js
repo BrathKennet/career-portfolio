@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import styles from '../styles/Home.module.css'
+import circle from '../../public/images/circulos2.jpg'
+import circle2 from "../../public/images/circle.png";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,13 +20,13 @@ export default function Home() {
         />
       </Head>
 
-      <header className="flex items-center justify-around h-screen bg-no-repeat bg-center bg-cover bg-[url('../public/images/bg-section1.jpeg')] ">
+      <header className="flex items-center justify-around h-screen bg-no-repeat bg-center bg-cover bg-[url('../../public/images/bg-section1.jpeg')]  ">
         <div
           className="bg-[black]/25 z-10 backdrop-blur-md border-4 border-[#C00B62] rounded-tr-[52px] rounded-bl-[52px] md:p-16 p-7 m-12"
           data-aos="zoom-in"
         >
           <p
-            className={`text-white text-center md:text-5xl text-3xl lg:mb-8 mb-6 ${styles.section_title}`}
+            className={`text-white text-center md:text-5xl text-3xl lg:mb-8 mb-6 ${styles.section_title} `}
           >
             Desarrollo de Aplicaciones Web
           </p>
@@ -35,7 +37,7 @@ export default function Home() {
           </p>
         </div>
       </header>
-      <section className="z-30 flex items-center justify-around h-screen bg-no-repeat bg-center bg-cover bg-[url('../public/images/bg-section1.jpeg')]">
+      <section className="z-30 flex items-center justify-around h-screen bg-[#13000E]">
         <div
           className=" bg-[black]/25 z-10 backdrop-blur-md border-4 border-[#C00B62] rounded-tr-[52px] rounded-bl-[52px]   md:p-16 p-7 m-12"
           data-aos="fade-right"
@@ -50,8 +52,19 @@ export default function Home() {
           >
             Portafolio Electrónico
           </p>
+          <div className=" py-10">
+            <Image
+              src={circle2}
+              width={"auto"}
+              height={"auto"}
+              alt="circle"
+              className="m-auto animate-[spin_2s_linear_infinite] mt-16 w-40 h-40"
+            />
+          </div>
         </div>
       </section>
+      
+      
     </>
   );
 }

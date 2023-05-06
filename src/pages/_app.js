@@ -1,5 +1,5 @@
-import Navbar from '@/layouts/Navbar'
-import '@/styles/globals.css'
+import Navbar from '../layouts/Navbar';
+import '../styles/globals.css'
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"

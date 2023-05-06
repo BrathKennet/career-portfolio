@@ -2,12 +2,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React, { useState } from 'react'
 import { links } from '../links';
-import Chevron from "../../public/icons/chevron.png";
+import Chevron from "../../../public/icons/chevron.png";
 
 const NavLink = () => {
 
   const [heading, setHeading] = useState("")
   const [subHeading, setSubHeading] = useState("");
+  const [visible, setVisible] = useState(false)
 
   return (
     <>
@@ -20,6 +21,8 @@ const NavLink = () => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
               }}
+              onMouseEnter={() => setVisible(true)}
+              onMouseLeave={() => setVisible(false)}
             >
               {link.name}
               {link.submenu && (
@@ -45,8 +48,14 @@ const NavLink = () => {
               )}
             </h1>
             {link.submenu && (
-              <div>
-                <div className="absolute top-16 hidden group-hover:md:block hover:md:block">
+              <div
+                onMouseEnter={() => setVisible(true)}
+                onMouseLeave={() => setVisible(false)}
+                className={`duration-1000 ${visible ? "opacity-100" : "opacity-0"}`}
+              >
+                <div
+                  className="absolute top-16 mr-1 hidden group-hover:md:block hover:md:block"
+                >
                   <div className="py-3">
                     <div className="w-4 h-4 left-3 absolute mt-1 bg-[#310018] border-t border-l border-[#B6207A] rotate-45"></div>
                   </div>
@@ -62,11 +71,7 @@ const NavLink = () => {
                               key={slink.name}
                               className="text-sm text-white my-3 hover:text-[#B6207A]"
                             >
-                              <Link
-                                href={slink.link}
-                              >
-                                {slink.name}
-                              </Link>
+                              <Link href={slink.link}>{slink.name}</Link>
                             </li>
                           ))}
                         </ul>

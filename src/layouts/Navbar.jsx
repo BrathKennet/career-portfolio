@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Logo from '../public/icons/portfolio.png'
-import Menu from '../public/icons/menu.png'
-import Close from '../public/icons/close.png'
-import NavLink from '@/components/navlink'
-import styles from '@/styles/Layouts.module.css'
+import Logo from '../../public/icons/portfolio.png'
+import Menu from '../../public/icons/menu.png'
+import Close from '../../public/icons/close.png'
+import NavLink from '../components/navlink'
+import styles from '../styles/Layouts.module.css'
 
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
       >
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <Link href={"/"} className="flex items-center">
-            <Image src={Logo} alt="Logo" className="h-9 w-9" />
+            <Image src={Logo} alt="Logo" className="h-9 w-9" width={"auto"} priority/>
             <p className="mx-4 uppercase">Portafolio</p>
           </Link>
           <div className="md:hidden" onClick={() => setOpen(!open)}>
@@ -51,7 +51,11 @@ const Navbar = () => {
           }`}
         >
           <li className="md:border-0 border-b border-[#B6207A]">
-            <Link href={"/"} className="py-5 px-3 inline-block">
+            <Link
+              href={"/"}
+              className="py-5 px-3 inline-block"
+              onClick={() => setOpen(!open)}
+            >
               Inicio
             </Link>
           </li>

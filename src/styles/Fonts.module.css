@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Paytone One';
+  src: url('../../public/fonts/PaytoneOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rowdles Bold';
+  src: url('../../public/fonts/Rowdies-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rowdles Light';
+  src: url('../../public/fonts/Rowdies-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rowdles Regular';
+  src: url('../../public/fonts/Rowdies-Regular.ttf') format('truetype');
+}
