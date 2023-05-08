@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '../styles/Home.module.css'
 import circle from '../../public/images/circulos2.jpg'
 import circle2 from "../../public/images/circle.png";
+import ParticleBg from "../components/ParticleBg";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +21,7 @@ export default function Home() {
         />
       </Head>
 
-      <header className="flex items-center justify-around h-screen bg-no-repeat bg-center bg-cover bg-[url('../../public/images/bg-section1.jpeg')]  ">
+      <header className="flex items-center justify-around h-screen bg-no-repeat bg-center bg-cover bg-[url('../../public/images/bg-section1.jpeg')] z-50  ">
         <div
           className="bg-[black]/25 z-10 backdrop-blur-md border-4 border-[#C00B62] rounded-tr-[52px] rounded-bl-[52px] md:p-16 p-7 m-12"
           data-aos="zoom-in"
@@ -37,9 +38,13 @@ export default function Home() {
           </p>
         </div>
       </header>
-      <section className="z-30 flex items-center justify-around h-screen bg-[#13000E]">
+
+      <section className=" flex items-center justify-around h-screen bg-[#13000E] z-20 relative">
+        <div className="absolute top-0 h-[200px]">
+          <ParticleBg />
+        </div>
         <div
-          className=" bg-[black]/25 z-10 backdrop-blur-md border-4 border-[#C00B62] rounded-tr-[52px] rounded-bl-[52px]   md:p-16 p-7 m-12"
+          className=" bg-[black]  border-4 border-[#C00B62] rounded-tr-[52px] rounded-bl-[52px]   md:p-16 p-7 m-12 z-10 "
           data-aos="fade-right"
         >
           <p
@@ -63,8 +68,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
-      
     </>
   );
 }
