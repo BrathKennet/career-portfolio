@@ -28,7 +28,7 @@ function ParticleBg({children}) {
           repeat: "no-repeat",
         },
         fullScreen: {
-          enable: true,
+          enable: false,
           zIndex: -10,
         },
         fpsLimit: 120,

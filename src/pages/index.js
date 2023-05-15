@@ -2,9 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '../styles/Home.module.css'
-import circle from '../../public/images/circulos2.jpg'
+import Monitor from '../../public/images/monitor.gif'
+import styleBorder from '../styles/Border.module.css'
 import circle2 from "../../public/images/circle.png";
 import ParticleBg from "../components/ParticleBg";
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -39,32 +41,27 @@ export default function Home() {
         </div>
       </header>
 
-      <section className=" flex items-center justify-around h-screen bg-[#13000E] z-20 relative">
-        <div className="absolute top-0 h-[200px]">
-          <ParticleBg />
-        </div>
+      <section className="h-fit bg-[#13000E] z-20 pt-28 pb-10 sm:px-16 px-8">
         <div
-          className=" bg-[black]  border-4 border-[#C00B62] rounded-tr-[52px] rounded-bl-[52px]   md:p-16 p-7 m-12 z-10 "
-          data-aos="fade-right"
+          className={`text-[#C00B62] md:text-[30px] text-[25px] text-center md:m-0 m-auto w-fit h-fit border border-[#C00B62] px-5 py-2 ${styles.title_header}`}
         >
-          <p
-            className={`text-white text-center md:text-5xl text-3xl lg:mb-8 mb-6 ${styles.section_title}`}
-          >
-            Desarrollo de Aplicaciones Web
-          </p>
-          <p
-            className={`text-white text-center lg:text-2xl text-sm ${styles.section_subtitle}`}
-          >
-            Portafolio Electrónico
-          </p>
-          <div className=" py-10">
-            <Image
-              src={circle2}
-              width={"auto"}
-              height={"auto"}
-              alt="circle"
-              className="m-auto animate-[spin_2s_linear_infinite] mt-16 w-40 h-40"
-            />
+          Bienvenida e Introducción
+        </div>
+        <div className="grid md:grid-cols-2 grid-cols-1 lg:px-20 sm:px-0 md:py-12 py-5 place-items-center">
+          <div>
+            <Image src={Monitor} height={400} width={400} alt="monitor" />
+          </div>
+          <div className="w-fit h-fit border-x border-white md:mt-0 mt-5 sm:px-10 px-5 sm:py-10 py-5 sm:rounded-[40px] rounded-[20px]">
+            <p className={`text-white max-w-[400px] text-justify m-auto lg:text-[19px] text-base ${styles.text_font}`}>
+              ¡Bienvenido al portafolio electrónico de Desarrollo de
+              Aplicaciones Web! <br />
+              <br /> Mi nombre es Brath, y estoy emocionado de compartir mi
+              trabajo y mi trayectoria durante este curso. <br />
+              <br />
+              En este portafolio encontrarás los temas realizados por cada
+              semana. Cada uno de ellos representa un reto para mí y una
+              oportunidad para aprender y crecer en mi carrera.
+            </p>
           </div>
         </div>
       </section>

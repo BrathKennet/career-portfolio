@@ -17,3 +17,13 @@
   font-family: 'Rowdles Regular';
   src: url('../../public/fonts/Rowdies-Regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Lilita One';
+  src: url('../../public/fonts/LilitaOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bree Serif';
+  src: url('../../public/fonts/BreeSerif-Regular.ttf') format('truetype');
+}
