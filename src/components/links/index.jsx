@@ -6,7 +6,9 @@ export const links = [
       {
         Head: "Vista General",
         sublink: [
+          { name: "Bienvenida", link: "/" },
           { name: "Contenido", link: "/" },
+          { name: "Sobre mí", link: "/" },
         ],
       },
       {

@@ -6,6 +6,7 @@ import Monitor from '../../public/images/monitor.gif'
 import styleBorder from '../styles/Border.module.css'
 import circle2 from "../../public/images/circle.png";
 import ParticleBg from "../components/ParticleBg";
+import Title from '../components/title'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -41,18 +42,20 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="h-fit bg-[#13000E] z-20 pt-28 pb-10 sm:px-16 px-8">
-        <div
-          className={`text-[#C00B62] md:text-[30px] text-[25px] text-center md:m-0 m-auto w-fit h-fit border border-[#C00B62] px-5 py-2 ${styles.title_header}`}
-        >
-          Bienvenida e Introducción
-        </div>
+      <section className="h-fit bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen">
+        <Title text={"Bienvenida e Introducción"} right={true} />
         <div className="grid md:grid-cols-2 grid-cols-1 lg:px-20 sm:px-0 md:py-12 py-5 place-items-center">
-          <div>
+          <div data-aos="zoom-in-right">
             <Image src={Monitor} height={400} width={400} alt="monitor" />
           </div>
-          <div className="w-fit h-fit border-x border-white md:mt-0 mt-5 sm:px-10 px-5 sm:py-10 py-5 sm:rounded-[40px] rounded-[20px]">
-            <p className={`text-white max-w-[400px] text-justify m-auto lg:text-[19px] text-base ${styles.text_font}`}>
+          <div
+            className="w-fit h-fit border-x border-white md:mt-0 mt-5 sm:px-10 px-5 sm:py-10 py-5 sm:rounded-[40px] rounded-[20px]"
+            data-aos="zoom-in-left"
+          >
+            <p
+              className={`text-white max-w-[400px] text-justify m-auto lg:text-[19px] text-base ${styles.text_font}
+              `}
+            >
               ¡Bienvenido al portafolio electrónico de Desarrollo de
               Aplicaciones Web! <br />
               <br /> Mi nombre es Brath, y estoy emocionado de compartir mi
@@ -62,6 +65,58 @@ export default function Home() {
               semana. Cada uno de ellos representa un reto para mí y una
               oportunidad para aprender y crecer en mi carrera.
             </p>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section className="h-fit bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen ">
+        <Title text={"Contenido"} right={false} />
+
+        <div className={styles.main}>
+          <div className={styles.container}>
+            <ul>
+              <li>
+                <div className={styles.super}>
+                  <div className={styles.div1}> Semana 1</div>
+                  <div className={styles.div2}>
+                    <h3 className={styles.title}>Front End Developer</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Dolorem eaque quidem esse? Incidunt, odit beatae?
+                    </p>
+                    <a >Read More {">"}</a>
+                  </div>
+                </div>
+                <span className={styles.circle}></span>
+              </li>
+              <li>
+                <h3 className={styles.title}>Back End Developer</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorem eaque quidem esse? Incidunt, odit beatae?
+                </p>
+                <a >Read More {">"}</a>
+                <span className={styles.circle}></span>
+              </li>
+              <li>
+                <h3 className={styles.title}>Full Stack Developer</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorem eaque quidem esse? Incidunt, odit beatae?
+                </p>
+                <a >Read More {">"}</a>
+                <span className={styles.circle}></span>
+              </li>
+              <li>
+                <h3 className={styles.title}>App Developer</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorem eaque quidem esse? Incidunt, odit beatae?
+                </p>
+                <a >Read More {">"}</a>
+                <span className={styles.circle}></span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>

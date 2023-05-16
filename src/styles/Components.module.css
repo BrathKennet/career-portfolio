@@ -1,0 +1,7 @@
+/* Title */
+
+@import url('./Fonts.module.css');
+
+.title {
+  font-family: "Lilita One", cursive;
+}
