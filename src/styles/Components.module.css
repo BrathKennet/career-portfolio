@@ -1,7 +1,13 @@
-/* Title */
-
 @import url('./Fonts.module.css');
 
-.title {
+/* Title */
+
+.font_lilita {
   font-family: "Lilita One", cursive;
 }
+
+.font_bree {
+  font-family: "Bree Serif", serif;
+}
+
+/* CardTimeline */

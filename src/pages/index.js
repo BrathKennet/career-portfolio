@@ -7,6 +7,8 @@ import styleBorder from '../styles/Border.module.css'
 import circle2 from "../../public/images/circle.png";
 import ParticleBg from "../components/ParticleBg";
 import Title from '../components/title'
+import CardTimeline from '../components/cardtimeline'
+import Timeline from '../components/timeline'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -24,7 +26,7 @@ export default function Home() {
         />
       </Head>
 
-      <header className="flex items-center justify-around h-screen bg-no-repeat bg-center bg-cover bg-[url('../../public/images/bg-section1.jpeg')] z-50  ">
+      <header className="flex items-center justify-around h-screen bg-no-repeat bg-center bg-cover bg-[url('../../public/images/bg-section1.jpeg')] z-50" id='header'>
         <div
           className="bg-[black]/25 z-10 backdrop-blur-md border-4 border-[#C00B62] rounded-tr-[52px] rounded-bl-[52px] md:p-16 p-7 m-12"
           data-aos="zoom-in"
@@ -42,9 +44,9 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="h-fit bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen">
+      <section className="min-h-screen bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen" id='intro'>
         <Title text={"Bienvenida e Introducción"} right={true} />
-        <div className="grid md:grid-cols-2 grid-cols-1 lg:px-20 sm:px-0 md:py-12 py-5 place-items-center">
+        <div className="grid c_lg:grid-cols-2 grid-cols-1 xl:px-20 lg:px-5 md:px-0 md:py-12 py-5 place-items-center mt-10">
           <div data-aos="zoom-in-right">
             <Image src={Monitor} height={400} width={400} alt="monitor" />
           </div>
@@ -53,7 +55,7 @@ export default function Home() {
             data-aos="zoom-in-left"
           >
             <p
-              className={`text-white max-w-[400px] text-justify m-auto lg:text-[19px] text-base ${styles.text_font}
+              className={`text-white max-w-[400px] text-justify m-auto md:text-[19px] text-base ${styles.text_font}
               `}
             >
               ¡Bienvenido al portafolio electrónico de Desarrollo de
@@ -69,57 +71,12 @@ export default function Home() {
         </div>
       </section>
       <hr />
-      <section className="h-fit bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen ">
+      <section className="h-fit bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen " id='content'>
         <Title text={"Contenido"} right={false} />
-
-        <div className={styles.main}>
-          <div className={styles.container}>
-            <ul>
-              <li>
-                <div className={styles.super}>
-                  <div className={styles.div1}> Semana 1</div>
-                  <div className={styles.div2}>
-                    <h3 className={styles.title}>Front End Developer</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Dolorem eaque quidem esse? Incidunt, odit beatae?
-                    </p>
-                    <a >Read More {">"}</a>
-                  </div>
-                </div>
-                <span className={styles.circle}></span>
-              </li>
-              <li>
-                <h3 className={styles.title}>Back End Developer</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorem eaque quidem esse? Incidunt, odit beatae?
-                </p>
-                <a >Read More {">"}</a>
-                <span className={styles.circle}></span>
-              </li>
-              <li>
-                <h3 className={styles.title}>Full Stack Developer</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorem eaque quidem esse? Incidunt, odit beatae?
-                </p>
-                <a >Read More {">"}</a>
-                <span className={styles.circle}></span>
-              </li>
-              <li>
-                <h3 className={styles.title}>App Developer</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorem eaque quidem esse? Incidunt, odit beatae?
-                </p>
-                <a >Read More {">"}</a>
-                <span className={styles.circle}></span>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <Timeline />
       </section>
+
     </>
   );
 }
+

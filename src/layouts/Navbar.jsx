@@ -17,12 +17,18 @@ const Navbar = () => {
       <div
         className={`flex items-center font-medium justify-around text-white text-base ${styles.nav_items}`}
       >
-        <div className="z-50 p-5 md:w-auto w-full flex justify-between">
+        <div className="z-50 p-5 c_lg:w-auto w-full flex justify-between">
           <Link href={"/"} className="flex items-center">
-            <Image src={Logo} alt="Logo" className="h-9 w-9" width={"auto"} priority/>
+            <Image
+              src={Logo}
+              alt="Logo"
+              className="h-9 w-9"
+              width={"auto"}
+              priority
+            />
             <p className="mx-4 uppercase">Portafolio</p>
           </Link>
-          <div className="md:hidden" onClick={() => setOpen(!open)}>
+          <div className="c_lg:hidden" onClick={() => setOpen(!open)}>
             {open ? (
               <Image src={Close} alt="menu" className="h-9 w-9" />
             ) : (
@@ -30,10 +36,23 @@ const Navbar = () => {
             )}
           </div>
         </div>
-        <ul className="md:flex hidden items-center gap-8 h-full">
+        <ul className="c_lg:flex hidden items-center gap-8 h-full">
           <li>
-            <Link href={"/"} className="py-5 px-3 inline-block">
+            <Link
+              href="/#header"
+              scroll={false}
+              className="py-5 px-3 inline-block"
+            >
               Inicio
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/#intro"
+              scroll={false}
+              className="py-5 px-3 inline-block"
+            >
+              Introducción
             </Link>
           </li>
           <NavLink />
@@ -46,21 +65,32 @@ const Navbar = () => {
 
         {/* Mobile nav */}
         <ul
-          className={`md:hidden z-40 bg-gradient-to-b from-[#310018] to-[#20001D] border-t border-[#B6207A] absolute overflow-y-auto md:h-full h-screen w-full top-0 py-10 pb-24 mt-[4.5rem] pl-4 duration-500 ${
+          className={`c_lg:hidden z-40 bg-gradient-to-b from-[#310018] to-[#20001D] border-t border-[#B6207A] absolute overflow-y-auto c_lg:h-full h-screen w-full top-0 py-10 pb-24 mt-[4.5rem] pl-4 duration-500 ${
             open ? "right-0" : "right-[-100%]"
           }`}
         >
-          <li className="md:border-0 border-b border-[#B6207A]">
+          <li className="c_lg:border-0 border-b border-[#B6207A]">
             <Link
-              href={"/"}
+              href={"/#header"}
+              scroll={false}
               className="py-5 px-3 inline-block"
               onClick={() => setOpen(!open)}
             >
               Inicio
             </Link>
           </li>
-          <NavLink />
-          <li className="md:border-0 border-b border-[#B6207A]">
+          <li className="c_lg:border-0 border-b border-[#B6207A]">
+            <Link
+              href="/#intro"
+              scroll={false}
+              className="py-5 px-3 inline-block"
+              onClick={() => setOpen(!open)}
+            >
+              Introducción
+            </Link>
+          </li>
+          <NavLink setOpen={setOpen} />
+          <li className="c_lg:border-0 border-b border-[#B6207A]">
             <Link href={"/about"} className="py-5 px-3 inline-block">
               Información Personal
             </Link>
