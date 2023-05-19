@@ -2,12 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '../styles/Home.module.css'
+import fonts from '../styles/Fonts.module.css'
 import Monitor from '../../public/images/monitor.gif'
-import styleBorder from '../styles/Border.module.css'
-import circle2 from "../../public/images/circle.png";
-import ParticleBg from "../components/ParticleBg";
 import Title from '../components/title'
-import CardTimeline from '../components/cardtimeline'
 import Timeline from '../components/timeline'
 
 
@@ -26,25 +23,31 @@ export default function Home() {
         />
       </Head>
 
-      <header className="flex items-center justify-around h-screen bg-no-repeat bg-center bg-cover bg-[url('../../public/images/bg-section1.jpeg')] z-50" id='header'>
+      <header
+        className="flex items-center justify-around h-screen bg-no-repeat bg-center bg-cover bg-[url('../../public/images/bg-section1.jpeg')] z-50"
+        id="header"
+      >
         <div
           className="bg-[black]/25 z-10 backdrop-blur-md border-4 border-[#C00B62] rounded-tr-[52px] rounded-bl-[52px] md:p-16 p-7 m-12"
           data-aos="zoom-in"
         >
           <p
-            className={`text-white text-center md:text-5xl text-3xl lg:mb-8 mb-6 ${styles.section_title} `}
+            className={`text-white text-center md:text-5xl text-3xl lg:mb-8 mb-6 ${fonts.font_paytone} ${styles.section_title} `}
           >
             Desarrollo de Aplicaciones Web
           </p>
           <p
-            className={`text-white text-center lg:text-2xl text-sm ${styles.section_subtitle}`}
+            className={`text-white text-center lg:text-2xl text-sm ${fonts.font_paytone} ${styles.section_subtitle}`}
           >
             Portafolio Electrónico
           </p>
         </div>
       </header>
 
-      <section className="min-h-screen bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen" id='intro'>
+      <section
+        className="min-h-screen bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen"
+        id="intro"
+      >
         <Title text={"Bienvenida e Introducción"} right={true} />
         <div className="grid c_lg:grid-cols-2 grid-cols-1 xl:px-20 lg:px-5 md:px-0 md:py-12 py-5 place-items-center mt-10">
           <div data-aos="zoom-in-right">
@@ -55,7 +58,7 @@ export default function Home() {
             data-aos="zoom-in-left"
           >
             <p
-              className={`text-white max-w-[400px] text-justify m-auto md:text-[19px] text-base ${styles.text_font}
+              className={`text-white max-w-[400px] text-justify m-auto md:text-[19px] text-base ${fonts.font_bree}
               `}
             >
               ¡Bienvenido al portafolio electrónico de Desarrollo de
@@ -70,12 +73,18 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <hr />
-      <section className="h-fit bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen " id='content'>
+
+      <div className="w-full h-fit bg-[#13000E]">
+        <div className="w-[90%] h-[1px] bg-[#C00B62] mx-auto"></div>
+      </div>
+
+      <section
+        className="h-fit bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen "
+        id="content"
+      >
         <Title text={"Contenido"} right={false} />
         <Timeline />
       </section>
-
     </>
   );
 }

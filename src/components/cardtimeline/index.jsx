@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../../styles/Components.module.css";
+import fonts from "../../styles/Fonts.module.css";
 import Link from 'next/link';
 
 const CardTimeline = ({ number, theme, description, url, left}) => {
@@ -25,30 +25,30 @@ const CardTimeline = ({ number, theme, description, url, left}) => {
         >
           <div className="relative w-full md:h-[200px] h-[210px] ">
             <div
-              className={`absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-100 group-hover/item:opacity-0  transition-opacity duration-700 uppercase text-white ${styles.font_lilita} md:text-4xl text-2xl `}
+              className={`absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-100 group-hover/item:opacity-0  transition-opacity duration-700 uppercase text-white ${fonts.font_lilita} md:text-4xl text-2xl `}
             >
               Semana {number}
             </div>
             <div className="absolute top-0 left-0 w-full h-full  grid justify-center opacity-0 group-hover/item:opacity-100  transition-opacity duration-700 py-4 ">
               <h3
-                className={`text-[#C00B62] md:text-3xl text-2xl md:px-10 px-4 ${styles.font_lilita}`}
+                className={`text-[#C00B62] md:text-3xl text-2xl md:px-10 px-4 ${fonts.font_lilita}`}
               >
                 {theme}
               </h3>
               <p
-                className={`text-white md:text-lg text-base md:px-10 px-4 ${styles.font_bree}`}
+                className={`text-white md:text-lg text-base md:px-10 px-4 ${fonts.font_bree}`}
               >
                 {description}
               </p>
               <div className="flex items-stretch justify-between mt-3 bg-[#C00B62] py-2 md:px-10 px-4  rounded-b-[15px]">
                 <p
-                  className={`text-white uppercase self-center  rounded-e-[15px] md:text-xl text-lg ${styles.font_lilita}`}
+                  className={`text-white uppercase self-center  rounded-e-[15px] md:text-xl text-lg ${fonts.font_lilita}`}
                 >
                   Semana {number}
                 </p>
                 <Link
                   href={`${url}`}
-                  className={`text-white w-[40px] h-[40px] bg-[#13000E] rounded-full flex items-stretch ${styles.font_bree}`}
+                  className={`text-white w-[40px] h-[40px] bg-[#13000E] rounded-full flex items-stretch ${fonts.font_bree}`}
                 >
                   <p className="self-center m-auto">{">"}</p>
                 </Link>

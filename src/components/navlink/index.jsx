@@ -14,9 +14,9 @@ const NavLink = ({setOpen}) => {
     <>
       {links.map((link) => (
         <div key={link.name} className="md:border-0 border-b border-[#B6207A]">
-          <div className="px-3 text-left  group">
+          <div className="px-3 text-left group ">
             <h1
-              className="py-5 md:cursor-pointer"
+              className="py-5 w-fit cursor-pointer md:hover:text-white hover:text-[#B6207A]"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
@@ -100,7 +100,7 @@ const NavLink = ({setOpen}) => {
                           ? setSubHeading(slinks.Head)
                           : setSubHeading("")
                       }
-                      className="py-4 pl-7 font-semibold md:pr-0 pr-5"
+                      className="py-4 pl-7 font-semibold md:pr-0 pr-5 hover:text-[#B6207A]"
                     >
                       {slinks.Head}
                       <span className="md:mt-1 md:ml-2 ml-2 inline-block">

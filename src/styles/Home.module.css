@@ -1,19 +1,7 @@
-@import url("./Fonts.module.css");
-
 .section_title {
-  font-family: "Paytone One", sans-serif;
   text-shadow: -5px 5px 4px #c00b62;
 }
 
 .section_subtitle {
-  font-family: "Paytone One", sans-serif;
   text-shadow: -5px 5px 4px #c00b62;
-}
-
-.title_header {
-  font-family: "Lilita One", cursive;
-}
-
-.text_font {
-  font-family: "Bree Serif", serif;
 }
