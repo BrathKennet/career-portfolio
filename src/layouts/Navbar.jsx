@@ -42,15 +42,6 @@ const Navbar = () => {
         <ul className="md:flex hidden items-center gap-8 h-full">
           <li>
             <Link
-              href="/#header"
-              scroll={false}
-              className="py-5 px-3 inline-block"
-            >
-              Inicio
-            </Link>
-          </li>
-          <li>
-            <Link
               href="/#intro"
               scroll={false}
               className="py-5 px-3 inline-block"
@@ -60,8 +51,12 @@ const Navbar = () => {
           </li>
           <NavLink />
           <li>
-            <Link href={"/#about"} className="py-5 px-3 inline-block">
-              Información Personal
+            <Link
+              href={"/#about"}
+              scroll={false}
+              className="py-5 px-3 inline-block"
+            >
+              Sobre mí
             </Link>
           </li>
         </ul>
@@ -72,16 +67,6 @@ const Navbar = () => {
             open ? "right-0" : "right-[-100%]"
           }`}
         >
-          <li className="md:border-0 border-b border-[#B6207A]">
-            <Link
-              href={"/#header"}
-              scroll={false}
-              className="py-5 px-3 inline-block hover:text-[#B6207A]"
-              onClick={() => setOpen(!open)}
-            >
-              Inicio
-            </Link>
-          </li>
           <li className="md:border-0 border-b border-[#B6207A]">
             <Link
               href="/#intro"
@@ -96,9 +81,11 @@ const Navbar = () => {
           <li className="md:border-0 border-b border-[#B6207A]">
             <Link
               href={"/#about"}
+              scroll={false}
               className="py-5 px-3 inline-block hover:text-[#B6207A]"
+              onClick={() => setOpen(!open)}
             >
-              Información Personal
+              Sobre mí
             </Link>
           </li>
         </ul>

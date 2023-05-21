@@ -6,6 +6,16 @@ import fonts from '../styles/Fonts.module.css'
 import Monitor from '../../public/images/monitor.gif'
 import Title from '../components/title'
 import Timeline from '../components/timeline'
+import ButtonFixed from '../components/buttonfixed'
+import CardStyled from '../components/cardstyled'
+import icon_css from '../../public/icons/css.svg'
+import icon_html from "../../public/icons/html.svg";
+import icon_js from "../../public/icons/javascript.svg";
+import icon_react from "../../public/icons/react.svg";
+import icon_nextjs from "../../public/icons/nextjs.svg";
+import icon_tailwind from "../../public/icons/tailwind.svg";
+import profile from "../../public/images/profile_img.png";
+import ImageStyled from '../components/imagestyles'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -79,12 +89,50 @@ export default function Home() {
       </div>
 
       <section
-        className="h-fit bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen "
+        className="h-fit bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen"
         id="content"
       >
         <Title text={"Contenido"} right={false} />
         <Timeline />
       </section>
+
+      <div className="w-full h-fit bg-[#13000E]">
+        <div className="w-[90%] h-[1px] bg-[#C00B62] mx-auto"></div>
+      </div>
+
+      <section
+        className="h-fit bg-[#13000E] z-20 pt-28 pb-10 sm:px-28 px-8 max-w-screen"
+        id="about"
+      >
+        <Title text={"Sobre Mí"} right={true} />
+        <div className="h-fit grid md:grid-cols-2 grid-cols-1 mt-32 mb-10 md:max-w-[85%] max-w-full mx-auto ">
+          <ImageStyled />
+          <div
+            className={`text-white block text-lg text- px-4 m-auto max-w-[500px] text-justify ${fonts.font_bree}`}
+            data-aos="fade-up"
+          >
+            <p className="mb-2">¡Hola! Soy Brath.</p>
+            <p className="mb-2">Actualmente estoy estudiando en la UNCP.</p>
+            <p>
+              No cuento con demasiada experiencia en el Desarrollo de
+              Aplicaciones, sin embargo, estoy constantemente buscando
+              oportunidades para crecer y aprender en este campo que está en
+              constante evolución.
+            </p>
+          </div>
+        </div>
+        <div className="max-w-[700px] h-fit py-20 bg-[#13000E] z-10 mx-auto">
+          <div className="grid md:grid-cols-6 grid-cols-3 mx-auto relative text-center w-full">
+            <CardStyled img={icon_html} delay={"0"} />
+            <CardStyled img={icon_css} delay={"100"} />
+            <CardStyled img={icon_js} delay={"200"} />
+            <CardStyled img={icon_react} delay={"300"} />
+            <CardStyled img={icon_nextjs} delay={"400"} />
+            <CardStyled img={icon_tailwind} delay={"500"} />
+          </div>
+        </div>
+      </section>
+      <ButtonFixed />
     </>
   );
 }

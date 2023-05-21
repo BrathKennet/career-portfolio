@@ -3,6 +3,7 @@ import fonts from "../../styles/Fonts.module.css";
 import Link from 'next/link';
 
 const CardTimeline = ({ number, theme, description, url, left}) => {
+
   return (
     <>
       <li
@@ -21,7 +22,7 @@ const CardTimeline = ({ number, theme, description, url, left}) => {
               ? "c_lg:bg-[linear-gradient(90deg,_#C00B62_0%,_rgba(192,11,98,0)_100%)] bg-[linear-gradient(270deg,_#C00B62_0%,_rgba(192,11,98,0)_100%)] c_lg:rounded-s-[15px] rounded-e-[15px]"
               : "bg-[linear-gradient(270deg,_#C00B62_0%,_rgba(192,11,98,0)_100%)] rounded-e-[15px] "
           } hover:bg-[linear-gradient(90deg,_#13000E_0%,_rgba(192,11,98,0)_100%)] `}
-          data-aos="fade-up"
+          /* data-aos="fade-up" */
         >
           <div className="relative w-full md:h-[200px] h-[210px] ">
             <div

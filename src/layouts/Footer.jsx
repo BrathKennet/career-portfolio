@@ -7,6 +7,7 @@ import facebook from "../../public/icons/facebook.svg";
 import github from "../../public/icons/github.svg";
 import twitter from "../../public/icons/twitter.svg";
 import { links } from '../components/data';
+import UserTitle from '../components/usertitle';
 
 const Footer = () => {
 
@@ -46,6 +47,7 @@ const Footer = () => {
     ));
   };
 
+  const year = new Date().getFullYear();
 
   return (
     <footer
@@ -69,7 +71,7 @@ const Footer = () => {
             </li>
             <li>
               <Link href="/#about" scroll={false}>
-                Información Personal
+                Sobre mí
               </Link>
             </li>
             <li className="c_lg:hidden block pt-3">Tabla de Contenido</li>
@@ -85,25 +87,36 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-[90%] h-[1px] bg-[#C00B62] mx-auto mb-8"></div>
-      <div className="flex justify-center gap-10 mb-8" data-aos="zoom-in-up">
-        <Link href={""}>
-          <Image src={facebook} width={30} height={30} alt="android" />
+      <div
+        className="flex min-h-[40px] justify-center gap-10 mb-8"
+        data-aos="zoom-in-up"
+      >
+        <Link
+          href={"https://www.facebook.com/brath.barbozaagustin.94"}
+          target="_blank"
+          className="w-[30px] h-[30px] hover:w-[40px] hover:h-[40px] duration-500 my-auto"
+        >
+          <Image src={facebook} alt="facebook" />
         </Link>
-        <Link href={""}>
-          <Image src={twitter} width={30} height={30} alt="android" />
+        <Link
+          href={"https://twitter.com/BrathKennet"}
+          target="_blank"
+          className="w-[30px] h-[30px] hover:w-[40px] hover:h-[40px] duration-500 my-auto"
+        >
+          <Image src={twitter} alt="twitter" />
         </Link>
-        <Link href={""}>
-          <Image src={github} width={30} height={30} alt="android" />
-        </Link>
-        <Link href={""}>
-          <Image src={android} width={30} height={30} alt="android" />
+        <Link
+          href={"https://github.com/BrathKennet"}
+          target="_blank"
+          className="w-[30px] h-[30px] hover:w-[40px] hover:h-[40px] duration-500 my-auto"
+        >
+          <Image src={github} alt="github" />
         </Link>
       </div>
-      <div className="text-white text-center" data-aos="zoom-in-up">
-        <p className="">Copyright © 2023</p>
-        <p className="mb-2">
-          Diseñado por <span className="text-[#C00B62]">Louder</span>
-        </p>
+      <div className="text-white text-center text-lg" data-aos="zoom-in-up">
+        <p className="">Copyright © {year}</p>
+        <p className="mb-2">Diseñado por</p>
+        <UserTitle />
       </div>
     </footer>
   );

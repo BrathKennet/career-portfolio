@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
 import Footer from '../layouts/Footer';
+import AnimCursor from '../components/animcursor';
 
 export default function App({ Component, pageProps }) {
    useEffect(() => {
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }) {
    }, []);
 
   return (<>
+      <AnimCursor />
       <Navbar />
       <Component {...pageProps} />
       <Footer />

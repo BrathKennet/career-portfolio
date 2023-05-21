@@ -16,7 +16,12 @@
   background-color: #C00B62;
 }
 
-        
+@media (max-width: 550px) {
+ *::-webkit-scrollbar {
+  width: 7px;
+  background-color: #13000E;
+} 
+}
 
 
 /* :root {

@@ -16,7 +16,7 @@ const NavLink = ({setOpen}) => {
         <div key={link.name} className="md:border-0 border-b border-[#B6207A]">
           <div className="px-3 text-left group ">
             <h1
-              className="py-5 w-fit cursor-pointer md:hover:text-white hover:text-[#B6207A]"
+              className="py-5 w-fit h-fit cursor-pointer md:hover:text-white hover:text-[#B6207A]"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
