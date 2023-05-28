@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import React, { useState } from 'react'
-import { links } from '../data';
+import { links } from '../../data/data.js'
 import Chevron from "../../../public/icons/chevron.png";
 
 const NavLink = ({setOpen}) => {

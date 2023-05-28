@@ -6,7 +6,7 @@ import android from '../../public/icons/android.svg'
 import facebook from "../../public/icons/facebook.svg";
 import github from "../../public/icons/github.svg";
 import twitter from "../../public/icons/twitter.svg";
-import { links } from '../components/data';
+import { links } from '../data/data.js';
 import UserTitle from '../components/usertitle';
 
 const Footer = () => {
