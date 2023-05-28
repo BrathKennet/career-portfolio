@@ -1,0 +1,19 @@
+{
+  "semanas": [
+    {
+      "id": 1,
+      "titulo": "Semana 1",
+      "contenido": "Contenido de la semana 1"
+    },
+    {
+      "id": 2,
+      "titulo": "Semana 2",
+      "contenido": "Contenido de la semana 2"
+    },
+    {
+      "id": 3,
+      "titulo": "Semana 3",
+      "contenido": "Contenido de la semana 3"
+    }
+  ]
+}
