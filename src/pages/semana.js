@@ -2,8 +2,7 @@ import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 
 export default function Semana() {
-  const router = useRouter();
-  const { id } = router.query;
+  const id = useRouter().query.id;
 
   const [data, setData] = useState([]);
 
