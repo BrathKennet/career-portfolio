@@ -13,9 +13,9 @@ const ImageStyled = () => {
       >
         <div className={`${styles.image_inset} h-full w-full overflow-hidden`}>
           <Image
-            src={profile}
+            src={profile2}
             alt="profile"
-            className="block h-full w-full object-contain -rotate-45 scale-[1.5]"
+            className="block h-full w-full object-contain -rotate-45 scale-[1.2]"
           />
         </div>
       </div>

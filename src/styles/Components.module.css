@@ -173,7 +173,7 @@
 
 .image_inset {
   clip-path: inset(3px);
-  filter: drop-shadow(0 0 10px #C00B62) saturate(.8);
+  filter: drop-shadow(0 0 10px #C00B62) saturate(0.5);
 }
 
 .image_box::before {
