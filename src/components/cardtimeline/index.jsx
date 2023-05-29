@@ -17,20 +17,26 @@ const CardTimeline = ({ number, theme, description, url, left}) => {
         "
       >
         <div
-          className={`${
+          /* className={`${
             left
               ? "c_lg:bg-[linear-gradient(90deg,_#C00B62_0%,_rgba(192,11,98,0)_100%)] bg-[linear-gradient(270deg,_#C00B62_0%,_rgba(192,11,98,0)_100%)] c_lg:rounded-s-[15px] rounded-e-[15px]"
               : "bg-[linear-gradient(270deg,_#C00B62_0%,_rgba(192,11,98,0)_100%)] rounded-e-[15px] "
-          } hover:bg-[linear-gradient(90deg,_#13000E_0%,_rgba(192,11,98,0)_100%)] `}
+          }`} */
           /* data-aos="fade-up" */
         >
-          <div className="relative w-full md:h-[200px] h-[210px] ">
+          <div className="relative w-full md:h-[230px] h-[210px] ">
             <div
-              className={`absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-100 group-hover/item:opacity-0  transition-opacity duration-700 uppercase text-white ${fonts.font_lilita} md:text-4xl text-2xl `}
+              className={`absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-100 group-hover/item:opacity-0  transition-opacity duration-700 uppercase text-white ${
+                fonts.font_lilita
+              } md:text-4xl text-2xl ${
+                left
+                  ? "c_lg:bg-[linear-gradient(90deg,_#C00B62_0%,_rgba(192,11,98,0)_100%)] bg-[linear-gradient(270deg,_#C00B62_0%,_rgba(192,11,98,0)_100%)] c_lg:rounded-s-[15px] rounded-e-[15px]"
+                  : "bg-[linear-gradient(270deg,_#C00B62_0%,_rgba(192,11,98,0)_100%)] rounded-e-[15px] "
+              }`}
             >
               Semana {number}
             </div>
-            <div className="absolute top-0 left-0 w-full h-full  grid justify-center opacity-0 group-hover/item:opacity-100  transition-opacity duration-700 py-4 ">
+            <div className="absolute top-0 left-0 w-full h-full grid justify-center opacity-0 group-hover/item:opacity-100  transition-opacity duration-700 pt-4">
               <h3
                 className={`text-[#C00B62] md:text-3xl text-2xl md:px-10 px-4 ${fonts.font_lilita}`}
               >

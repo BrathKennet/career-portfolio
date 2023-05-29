@@ -1,4 +1,4 @@
-import s1_bg_p from "../../public/images/bg-section1.jpeg";
+import s1_bg_p from "../../public/images/semana1/img-principal.jpg";
 
 export const links = [
   {
@@ -42,23 +42,39 @@ export const links = [
 export const data = [
   {
     number: "01",
-    theme: "Tema 1",
+    theme: "Tecnologías de Desarrollo de Software",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
+      "Se brindó una detallada explicación sobre las tecnologías de desarrollo software",
     img_principal: s1_bg_p,
-    labels: [
-      { name: "HTML", color: "orange" },
-      { name: "CSS", color: "blue" },
-      { name: "JS", color: "amber" },
-    ],
+    labels: [{ name: "Teoría", color: "emerald" }],
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
+      'Durante la primera semana del curso "Desarrollo de aplicaciones web", se brindó una detallada explicación sobre las tecnologías de desarrollo software que se utilizarán a lo largo del semestre.\nEsta introducción fue crucial para sentar las bases y proporcionar a los estudiantes una comprensión sólida de las herramientas y tecnologías clave en el ámbito del desarrollo web. La transformación en el tratamiento de la información y la evolución digital de los procesos empresariales ha generado tecnologías para desarrollar software, orientados a satisfacer las exigencias de los mercados.\nActualmente tenemos dos tecnologías de desarrollo de software.\n-	Tecnología web\n-	Tecnología de software nativo.\n\tTecnología Web\nLa tecnología web se refiere al conjunto de herramientas, lenguajes y tecnologías utilizadas para desarrollar aplicaciones y sitios web accesibles a través de navegadores web. Algunos de los elementos clave de la tecnología web incluyen:\n- HTML\n- CSS\n- JavaScript\n- Frameworks y bibliotecas\n- Protocolos y Tecnologías de Comunicación\n\tTecnología de software nativo\nLa tecnología de software nativo se refiere al desarrollo de aplicaciones específicas para una plataforma o sistema operativo en particular. Estas aplicaciones se crean utilizando los lenguajes y herramientas recomendados por la plataforma objetivo. Algunas características de la tecnología de software nativo incluyen:\n-Lenguajes específicos de la plataforma\n-Kits de desarrollo de software (SDK)\n-Acceso completo a las API del sistema operativo\n-Alto rendimiento y optimización',
     definition: [
-      { name: "definition 1", notion: "asdasdasd" },
-      { name: "definition 2", notion: "asdasdasd" },
-      { name: "definition 3", notion: "asdasdasd" },
-      { name: "definition 4", notion: "asdasdasd" },
-      { name: "definition 5", notion: "asdasdasd" },
+      {
+        name: "HTML (HyperText Markup Language)",
+        notion:
+          "Es el lenguaje de marcado estándar utilizado para estructurar y presentar el contenido de las páginas web. Con HTML, se definen los elementos y la estructura básica de una página.",
+      },
+      {
+        name: "CSS (Cascading Style Sheets)",
+        notion:
+          "Es utilizado para definir el estilo y la apariencia visual de las páginas web. Con CSS, se pueden aplicar estilos como colores, fuentes, márgenes y diseños a los elementos HTML.",
+      },
+      {
+        name: "JavaScript",
+        notion:
+          "Es utilizado para definir el estilo y la apariencia visual de las páginas web. Con CSS, se pueden aplicar estilos como colores, fuentes, márgenes y diseños a los elementos HTML.",
+      },
+      {
+        name: "Frameworks y bibliotecas",
+        notion:
+          "Existen numerosos frameworks y bibliotecas que simplifican el desarrollo web, proporcionando conjuntos de herramientas predefinidas y funcionalidades comunes. Algunos ejemplos populares son React, Angular y Vue.js.",
+      },
+      {
+        name: "Protocolos y tecnologías de comunicación",
+        notion:
+          "Para que las aplicaciones web puedan comunicarse con los servidores y otros recursos, se utilizan protocolos como HTTP (Hypertext Transfer Protocol) y WebSocket. También se emplean tecnologías como AJAX (Asynchronous JavaScript and XML) para realizar solicitudes asíncronas y actualizar contenido sin tener que recargar toda la página.",
+      },
     ],
     url: "/semana?id=1#inits",
   },
