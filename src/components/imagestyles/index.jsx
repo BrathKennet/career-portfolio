@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../../styles/Components.module.css'
 import profile from '../../../public/images/profile_img.png'
+import profile2 from "../../../public/images/profile_img_2.png";
 import Image from 'next/image'
 
 const ImageStyled = () => {

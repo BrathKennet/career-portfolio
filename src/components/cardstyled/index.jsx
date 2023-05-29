@@ -12,10 +12,10 @@ const CardStyled = ({img, delay}) => {
         data-aos-delay={delay}
       >
         <div
-          className={`${styles.effect_1} rounded-[30%] h-[80px] w-[80px] absolute z-10 bg-[#7b0bc0a9]`}
+          className={`${styles.effect_1} rounded-[30%] h-[80px] w-[80px] absolute z-10 bg-[#0ba5c0a9]`}
         ></div>
         <div
-          className={`${styles.effect_2} rounded-[30%] h-[80px] w-[80px] absolute z-20 bg-[#c00b78a9]`}
+          className={`${styles.effect_2} rounded-[30%] h-[80px] w-[80px] absolute z-20 bg-[#c00b38a9]`}
         ></div>
         <div className=" rounded-[30%] h-[80px] w-[80px] m-[8%] absolute align-middle z-30">
           <Image src={img} alt="github" className="p-4" />
