@@ -1,4 +1,7 @@
-import s1_bg_p from "../../public/images/semana1/img-principal.jpg";
+import s1_img_p from "../../public/images/semana1/img-principal.jpg";
+import s1_img_e1 from "../../public/images/semana1/ejer-1.png"
+import s1_img_e2 from "../../public/images/semana1/ejer-2.png";
+import s1_img_e3 from "../../public/images/semana1/ejer-3.png";
 
 export const links = [
   {
@@ -45,7 +48,7 @@ export const data = [
     theme: "Tecnologías de Desarrollo de Software",
     description:
       "Se brindó una detallada explicación sobre las tecnologías de desarrollo software",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [{ name: "Teoría", color: "emerald" }],
     content:
       'Durante la primera semana del curso "Desarrollo de aplicaciones web", se brindó una detallada explicación sobre las tecnologías de desarrollo software que se utilizarán a lo largo del semestre.\nEsta introducción fue crucial para sentar las bases y proporcionar a los estudiantes una comprensión sólida de las herramientas y tecnologías clave en el ámbito del desarrollo web. La transformación en el tratamiento de la información y la evolución digital de los procesos empresariales ha generado tecnologías para desarrollar software, orientados a satisfacer las exigencias de los mercados.\nActualmente tenemos dos tecnologías de desarrollo de software.\n-	Tecnología web\n-	Tecnología de software nativo.\n\tTecnología Web\nLa tecnología web se refiere al conjunto de herramientas, lenguajes y tecnologías utilizadas para desarrollar aplicaciones y sitios web accesibles a través de navegadores web. Algunos de los elementos clave de la tecnología web incluyen:\n- HTML\n- CSS\n- JavaScript\n- Frameworks y bibliotecas\n- Protocolos y Tecnologías de Comunicación\n\tTecnología de software nativo\nLa tecnología de software nativo se refiere al desarrollo de aplicaciones específicas para una plataforma o sistema operativo en particular. Estas aplicaciones se crean utilizando los lenguajes y herramientas recomendados por la plataforma objetivo. Algunas características de la tecnología de software nativo incluyen:\n-Lenguajes específicos de la plataforma\n-Kits de desarrollo de software (SDK)\n-Acceso completo a las API del sistema operativo\n-Alto rendimiento y optimización',
@@ -76,19 +79,36 @@ export const data = [
           "Para que las aplicaciones web puedan comunicarse con los servidores y otros recursos, se utilizan protocolos como HTTP (Hypertext Transfer Protocol) y WebSocket. También se emplean tecnologías como AJAX (Asynchronous JavaScript and XML) para realizar solicitudes asíncronas y actualizar contenido sin tener que recargar toda la página.",
       },
     ],
+    exercise_d:
+      "Los ejercicios siguiente se enfocan en identificar la dirección IP del equipo, comprobar la conectividad con un servidor específico y verificar el recorrido de los paquetes a través de la red. Estas acciones son útiles para diagnosticar problemas de red, configurar conexiones y asegurar un correcto funcionamiento en un entorno de red",
+    exercises: [
+      {
+        content: "Identificar ip de equipo",
+        img: s1_img_e1,
+        alt: "Ejercicio 1",
+      },
+      {
+        content: "Comprobar conectividad del servidor",
+        img: s1_img_e2,
+        alt: "Ejercicio 2",
+      },
+      {
+        content: "Verificar el recorrido de servidores",
+        img: s1_img_e3,
+        alt: "Ejercicio 3",
+      },
+    ],
+    reflect:
+      "En la primera semana del curso Desarrollo de aplicaciones web se presentaron las tecnologías de desarrollo software que se utilizarán a lo largo del semestre.\nSe destacaron dos tecnologías principales: la tecnología web, que engloba HTML, CSS, JavaScript, frameworks y protocolos de comunicación para desarrollar aplicaciones web accesibles a través de navegadores; y la tecnología de software nativo, que se enfoca en el desarrollo de aplicaciones específicas para plataformas o sistemas operativos utilizando lenguajes y herramientas recomendados por la plataforma objetivo.\nSe enfatizó la importancia de comprender y aplicar adecuadamente estas tecnologías para satisfacer las demandas del mercado y aprovechar las oportunidades de la evolución digital en el desarrollo de aplicaciones web exitosas.",
     url: "/semana?id=1#inits",
   },
   {
     number: "02",
-    theme: "Tema 2",
+    theme: "HTML (HyperText Markup Language)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
-    labels: [
-      { name: "HTML", color: "orange" },
-      { name: "CSS", color: "blue" },
-      { name: "JS", color: "amber" },
-    ],
+      "Se centró en el estudio y práctica de HTML (HyperText Markup Language)",
+    img_principal: s1_img_p,
+    labels: [{ name: "HTML", color: "orange" }],
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
     definition: [
@@ -105,7 +125,7 @@ export const data = [
     theme: "Tema 3",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -127,7 +147,7 @@ export const data = [
     theme: "Tema 4",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -149,7 +169,7 @@ export const data = [
     theme: "Tema 5",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -171,7 +191,7 @@ export const data = [
     theme: "Tema 6",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -193,7 +213,7 @@ export const data = [
     theme: "Tema 7",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -215,7 +235,7 @@ export const data = [
     theme: "Tema 8",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -237,7 +257,7 @@ export const data = [
     theme: "Tema 9",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -259,7 +279,7 @@ export const data = [
     theme: "Tema 10",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -281,7 +301,7 @@ export const data = [
     theme: "Tema 11",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -303,7 +323,7 @@ export const data = [
     theme: "Tema 12",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -325,7 +345,7 @@ export const data = [
     theme: "Tema 13",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -347,7 +367,7 @@ export const data = [
     theme: "Tema 14",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -369,7 +389,7 @@ export const data = [
     theme: "Tema 15",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },
@@ -391,7 +411,7 @@ export const data = [
     theme: "Tema 16",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremeaque quidem esse? Incidunt, odit beatae?",
-    img_principal: s1_bg_p,
+    img_principal: s1_img_p,
     labels: [
       { name: "HTML", color: "orange" },
       { name: "CSS", color: "blue" },

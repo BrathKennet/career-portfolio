@@ -14,7 +14,6 @@ import icon_js from "../../public/icons/javascript.svg";
 import icon_react from "../../public/icons/react.svg";
 import icon_nextjs from "../../public/icons/nextjs.svg";
 import icon_tailwind from "../../public/icons/tailwind.svg";
-import profile from "../../public/images/profile_img.png";
 import ImageStyled from '../components/imagestyles'
 
 

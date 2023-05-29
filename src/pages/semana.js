@@ -9,10 +9,10 @@ import LabelArticle from "../components/labelarticle";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-export default function Semana() {
 
+export default function Semana() {
   const id = useRouter().query.id;
-  const pageTitle = "Portafolio - Semana "+id;
+  const pageTitle = "Portafolio - Semana " + id;
   let dataGet = data[id - 1];
 
   return (
@@ -32,6 +32,7 @@ export default function Semana() {
       >
         {dataGet && (
           <div className="mx-auto p-4 sm:px-6 mt-5 h-full">
+            {/* Presentación */}
             <section className="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-28 items-center">
               <div className="relative block group" data-aos="zoom-in-right">
                 <div
@@ -40,7 +41,7 @@ export default function Semana() {
                 ></div>
                 <figure className="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden transform md:-translate-y-2 xl:-translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out">
                   <Image
-                    className="absolute inset-0 w-full h-full brightness-75	 object-cover transform hover:scale-105 transition duration-700 ease-out"
+                    className="absolute inset-0 w-full h-full  object-cover transform hover:scale-105 transition duration-700 ease-out"
                     src={dataGet.img_principal}
                     width="540"
                     height="303"
@@ -81,6 +82,7 @@ export default function Semana() {
                 </footer>
               </div>
             </section>
+            {/* Contenido */}
             <section className=" md:mt-24 mt-10 md:mx-8" data-aos="fade-up">
               <div
                 className={`text-base text-white text-justify ${fonts.font_bree}`}
@@ -157,37 +159,47 @@ export default function Semana() {
                 ))}
               </div>
             </section>
-            {/* Definiciones */}
-            <section></section>
-            <Carousel className="w-[500px] mx-auto ">
-              <div>
-                <Image
-                  src={dataGet.img_principal}
-                  alt="Image 1"
-                  width="540"
-                  height="303"
-                />
-                <p className="legend">Caption 1</p>
+            {/* Ejercicios */}
+            <section className="mt-20 md:mx-8">
+              <Title text={"Ejercicios"} right={true} />
+              <div
+                className={`mt-16 md:mx-2 text-base ${fonts.font_bree}`}
+                data-aos="fade-up"
+              >
+                {dataGet.exercise_d}
               </div>
-              <div>
-                <Image
-                  src={dataGet.img_principal}
-                  alt="Image 2"
-                  width="540"
-                  height="303"
-                />
-                <p className="legend">Caption 2</p>
+              <div className="mt-16" data-aos="fade-up">
+                <Carousel className="md:w-[85%] mx-auto">
+                  {dataGet.exercises.map((exercise) => (
+                    <div key={exercise.alt}>
+                      <Image
+                        src={exercise.img}
+                        className="max-h-[650px] min-h-[300px]"
+                        alt="Image 1"
+                        width={2000}
+                        height={2000}
+                      />
+                      <p className={`legend ${fonts.font_bree} text-base`}>
+                        {exercise.content}
+                      </p>
+                    </div>
+                  ))}
+                </Carousel>
               </div>
-              <div>
-                <Image
-                  src={dataGet.img_principal}
-                  alt="Image 3"
-                  width="540"
-                  height="303"
-                />
-                <p className="legend">Caption 3</p>
+            </section>
+            {/* Reflexión */}
+            <section className="mt-20 md:mx-8">
+              <div
+                className={`bg-white/[.15] rounded md:p-8 p-5 border-l-8 border-[#C00B62] h-auto text-white text-base text-justify ${fonts.font_bree}`}
+                data-aos="fade-up"
+              >
+                {dataGet.reflect.split("\n").map((line, index) => (
+                  <div key={index}>
+                    {line} <p className="pb-3"></p>
+                  </div>
+                ))}
               </div>
-            </Carousel>
+            </section>
           </div>
         )}
       </article>
