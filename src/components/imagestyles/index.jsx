@@ -15,7 +15,7 @@ const ImageStyled = () => {
           <Image
             src={profile2}
             alt="profile"
-            className="block h-full w-full object-contain -rotate-45 scale-[1.2]"
+            className="block h-full w-full object-contain -rotate-45 scale-[1.1]"
           />
         </div>
       </div>

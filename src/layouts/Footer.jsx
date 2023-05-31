@@ -2,12 +2,12 @@ import React from 'react'
 import fonts from "../styles/Fonts.module.css";
 import Link from 'next/link';
 import Image from 'next/image';
-import android from '../../public/icons/android.svg'
 import facebook from "../../public/icons/facebook.svg";
 import github from "../../public/icons/github.svg";
 import twitter from "../../public/icons/twitter.svg";
 import { links } from '../data/data.js';
 import UserTitle from '../components/usertitle';
+import FooterLink from '../components/footerlink';
 
 const Footer = () => {
 
@@ -17,8 +17,8 @@ const Footer = () => {
 
   const renderLinks = (sublinks) => {
     return sublinks.map((sublink) => (
-      <li className="pb-2" key={sublink.name}>
-        <Link href={sublink.link}>{sublink.name}</Link>
+      <li className="pb-4" key={sublink.name}>
+        <FooterLink link={sublink.link} name={sublink.name} color={"white"} />
       </li>
     ));
   };
@@ -59,20 +59,14 @@ const Footer = () => {
           data-aos="zoom-in-right"
         >
           <ul className="text-[#C00B62] text-xl my-auto c_lg:mx-[10%] c_lg:mb-0 pb-3">
-            <li className="pb-3">
-              <Link href="/#intro" scroll={false}>
-                Introducción
-              </Link>
+            <li className="pb-5">
+              <FooterLink link="/#intro" name="Introducción" color="styled" />
             </li>
-            <li className="pb-3">
-              <Link href="/#content" scroll={false}>
-                Contenido
-              </Link>
+            <li className="pb-5">
+              <FooterLink link="/#content" name="Contenido" color="styled" />
             </li>
             <li>
-              <Link href="/#about" scroll={false}>
-                Sobre mí
-              </Link>
+              <FooterLink link="/#about" name="Sobre mí" color="styled" />
             </li>
             <li className="c_lg:hidden block pt-3">Tabla de Contenido</li>
           </ul>
