@@ -17,6 +17,7 @@
     "react-animated-cursor": "^2.6.0",
     "react-dom": "18.2.0",
     "react-responsive-carousel": "^3.2.23",
+    "react-simple-typewriter": "^5.0.1",
     "react-tsparticles": "^2.9.3",
     "tsparticles": "^2.9.3"
   },

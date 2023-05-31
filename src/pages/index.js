@@ -15,6 +15,7 @@ import icon_react from "../../public/icons/react.svg";
 import icon_nextjs from "../../public/icons/nextjs.svg";
 import icon_tailwind from "../../public/icons/tailwind.svg";
 import ImageStyled from '../components/imagestyles'
+import { Typewriter } from 'react-simple-typewriter'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -43,12 +44,24 @@ export default function Home() {
           <p
             className={`text-white text-center md:text-5xl text-3xl lg:mb-8 mb-6 ${fonts.font_paytone} ${styles.section_title} `}
           >
-            Desarrollo de Aplicaciones Web
+            <span className="opacity-0">.</span>
+            <Typewriter
+              words={["", "Desarrollo de Aplicaciones Web"]}
+              loop={1}
+              typeSpeed={55}
+              delaySpeed={150}
+            />
           </p>
           <p
             className={`text-white text-center lg:text-2xl text-sm ${fonts.font_paytone} ${styles.section_subtitle}`}
           >
-            Portafolio Electrónico
+            <span className="opacity-0">.</span>
+            <Typewriter
+              words={["", "Portafolio Electrónico"]}
+              loop={1}
+              typeSpeed={50}
+              delaySpeed={2100}
+            />
           </p>
         </div>
       </header>
@@ -131,7 +144,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <ButtonFixed />
     </>
   );
 }

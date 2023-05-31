@@ -24,7 +24,7 @@ const CardTimeline = ({ number, theme, description, url, left}) => {
           }`} */
           /* data-aos="fade-up" */
         >
-          <div className="relative w-full md:h-[230px] h-[210px] ">
+          <div className="relative w-full sm:h-[230px] c_lg:h-[340px] lg:h-[210px] h-[230px] ">
             <div
               className={`absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-100 group-hover/item:opacity-0  transition-opacity duration-700 uppercase text-white ${
                 fonts.font_lilita
