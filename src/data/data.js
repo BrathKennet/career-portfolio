@@ -44,6 +44,60 @@ import s7_img_e6 from "../../public/images/semana7/ejer-6.png";
 import s7_img_e7 from "../../public/images/semana7/ejer-7.png";
 import s7_img_e8 from "../../public/images/semana7/ejer-8.png";
 
+import s8_img_p from "../../public/images/semana8/img-principal.jpg";
+import s8_img_e1 from "../../public/images/semana8/ejer-1.png";
+import s8_img_e2 from "../../public/images/semana8/ejer-2.png";
+import s8_img_e3 from "../../public/images/semana8/ejer-3.png";
+import s8_img_e4 from "../../public/images/semana8/ejer-4.png";
+import s8_img_e5 from "../../public/images/semana8/ejer-5.png";
+import s8_img_e6 from "../../public/images/semana8/ejer-6.png";
+
+import s9_img_p from "../../public/images/semana9/img-principal.jpg";
+import s9_img_e1 from "../../public/images/semana9/ejer-1.png";
+import s9_img_e2 from "../../public/images/semana9/ejer-2.png";
+import s9_img_e3 from "../../public/images/semana9/ejer-3.png";
+import s9_img_e4 from "../../public/images/semana9/ejer-4.png";
+import s9_img_e5 from "../../public/images/semana9/ejer-5.png";
+
+import s10_img_p from "../../public/images/semana10/img-principal.jpg";
+import s10_img_e1 from "../../public/images/semana10/ejer-1.png";
+import s10_img_e2 from "../../public/images/semana10/ejer-2.png";
+
+import s11_img_p from "../../public/images/semana11/img-principal.jpg";
+import s11_img_e1 from "../../public/images/semana11/ejer-1.png";
+import s11_img_e2 from "../../public/images/semana11/ejer-2.png";
+
+import s12_img_p from "../../public/images/semana12/img-principal.jpg";
+import s12_img_e1 from "../../public/images/semana12/ejer-1.png";
+import s12_img_e2 from "../../public/images/semana12/ejer-2.png";
+import s12_img_e3 from "../../public/images/semana12/ejer-3.png";
+import s12_img_e4 from "../../public/images/semana12/ejer-4.png";
+
+import s13_img_p from "../../public/images/semana13/img-principal.jpg";
+import s13_img_e1 from "../../public/images/semana13/ejer-1.png";
+import s13_img_e2 from "../../public/images/semana13/ejer-2.png";
+import s13_img_e3 from "../../public/images/semana13/ejer-3.png";
+import s13_img_e4 from "../../public/images/semana13/ejer-4.png";
+
+import s14_img_p from "../../public/images/semana14/img-principal.jpg";
+import s14_img_e1 from "../../public/images/semana14/ejer-1.png";
+import s14_img_e2 from "../../public/images/semana14/ejer-2.png";
+import s14_img_e3 from "../../public/images/semana14/ejer-3.png";
+
+import s15_img_p from "../../public/images/semana15/img-principal.jpg";
+import s15_img_e1 from "../../public/images/semana15/ejer-1.png";
+import s15_img_e2 from "../../public/images/semana15/ejer-2.png";
+
+import s16_img_p from "../../public/images/semana16/img-principal.jpg";
+import s16_img_e1 from "../../public/images/semana16/ejer-1.png";
+import s16_img_e2 from "../../public/images/semana16/ejer-2.png";
+import s16_img_e3 from "../../public/images/semana16/ejer-3.png";
+import s16_img_e4 from "../../public/images/semana16/ejer-4.png";
+import s16_img_e5 from "../../public/images/semana16/ejer-5.png";
+import s16_img_e6 from "../../public/images/semana16/ejer-6.png";
+import s16_img_e7 from "../../public/images/semana16/ejer-7.png";
+import s16_img_e8 from "../../public/images/semana16/ejer-8.png";
+
 export const links = [
   {
     name: "Contenido",
@@ -587,5 +641,560 @@ export const data = [
     reflect:
       "Durante la semana 7, exploramos las tecnologías Vite, Remix y Next.js, que son herramientas modernas para el desarrollo web. Fue fascinante sumergirse en estas tecnologías y aprender sobre sus características y enfoques únicos.\nCon Vite, descubrimos su capacidad para proporcionar un entorno de desarrollo rápido y eficiente, lo que facilita la visualización de cambios en tiempo real y la carga asincrónica de módulos. Esto nos permite optimizar nuestro flujo de trabajo y mejorar la experiencia de desarrollo.\nRemix nos mostró cómo construir aplicaciones web basadas en React, centrándose en la velocidad y la accesibilidad. Su enfoque en el renderizado del lado del servidor, la gestión del estado y el enrutamiento nos permite crear aplicaciones escalables y eficientes.\nPor último, con Next.js, exploramos su capacidad para generar páginas estáticas y aprovechar el renderizado del lado del servidor. Esto nos permite crear aplicaciones web de alto rendimiento y mejorar la experiencia del usuario.\nEsta semana fue un recordatorio de lo rápido que avanza el campo del desarrollo web y la importancia de mantenernos actualizados con las últimas tecnologías. A medida que exploramos Vite, Remix y Next.js, ampliamos nuestro conjunto de habilidades y nos acercamos más a convertirnos en desarrolladores web más competentes y versátiles.",
     url: "/semana?id=7#inits",
+  },
+  {
+    number: "08",
+    theme: "Evaluación Primer Consolidado",
+    description:
+      "Evaluación que abarcó los conocimientos aprendidos en las semanas anteriores para demostrar nuestra comprensión sobre las tecnologías exploradas.",
+    img_principal: s8_img_p,
+    labels: [{ name: "Evaluación", color: "emerald" }],
+    content:
+      'Durante la semana 8 del curso "Desarrollo de aplicaciones web", se llevó a cabo una evaluación que abarcó los conocimientos y conceptos aprendidos en las semanas anteriores.\nEsta evaluación nos brindó la oportunidad de demostrar nuestra comprensión sobre las tecnologías y herramientas exploradas, así como nuestra capacidad para aplicarlos en situaciones prácticas.\nLa evaluación nos permitió revisar los conceptos clave de cada semana, desde HTML, CSS y JavaScript hasta React, Vite, Remix y Next.js. También nos dio la oportunidad de profundizar en los temas importantes relacionados con el desarrollo web, como la creación de componentes, la gestión del estado, el enrutamiento y el rendimiento de las aplicaciones.\n\tPrimer Ejercicio\nDesarrollar una aplicación en React y Vite con 3 componentes (ComponentGeneral, ListaEstudiantes y Estudiante). En ComponentGeneral leer los datos de dos arrays separados por comas cada array en un input tipo texto. El primer array representa la lista de calificativos de n estudiantes. El segundo array representa la lista de nombres de los estudiantes. En componente ListaEstudiantes mostrar todos los componentes hijos en dos columnas si la pantalla es md o más, si es menor en una columna. En componente Estudiante mostrar en un rectángulo el nombre y calificativo, si la nota es aprobatoria mostrar de color azul y si es desaprobado de color rojo utilizar css\n\tSegundo Ejercicio\nDesarrollar una aplicación en React y Vite con varios componentes. Para generar las posibles de combinaciones de colores RGB(xx, yy, zz) para el color de fondo y color de texto. Para el color de fondo se sabe que xx, yy, zz son números que van desde el 0, 16, 32, … hasta 256 generarlo mediante 3 bucles. Y el color de texto y borde del rectángulo blanco si la suma de xx+yy+zz es menor a 256, color azul si esta entre 257 y 512, y color negro si es mas de 512.\n\tTercer Ejercicio\nDesarrollar una aplicación en React y Vite con varios componentes de un cronometro que será establecido en 3 input numéricos(horas, minutos, segundos) y que luego de pulsar en iniciar se actualizará el DOM convirtiendo los input numéricos en label y cada segundo deberá ser actualizado en tiempo real. Cumplido el tiempo deberá quedar en ceros los label y emitir un sonido con el archivo BeepExamen.mp3 en un bucle interminable.',
+    definition: [
+      {
+        name: "React y Vite",
+        notion:
+          "React es una biblioteca de JavaScript utilizada para construir interfaces de usuario interactivas y reactivas. Vite, por otro lado, es un entorno de desarrollo rápido y eficiente para aplicaciones web.",
+      },
+      {
+        name: "Componentes en React",
+        notion:
+          "Los componentes son bloques de construcción fundamentales en React. Son unidades independientes y reutilizables que encapsulan el comportamiento y la interfaz de usuario de una parte específica de la aplicación. Los componentes permiten dividir la interfaz de usuario en piezas más pequeñas y manejables, lo que mejora la legibilidad y la mantenibilidad del código.",
+      },
+      {
+        name: "Propiedades (Props) en React",
+        notion:
+          "Las propiedades (props) son un mecanismo para pasar datos desde un componente padre a un componente hijo en React. Las props son inmutables y permiten la comunicación entre componentes, lo que facilita la reutilización y personalización de los componentes en diferentes contextos.",
+      },
+      {
+        name: "Estado en React",
+        notion:
+          "El estado (state) en React es un objeto que representa la información dinámica de un componente. A diferencia de las props, el estado es mutable y puede cambiar durante el ciclo de vida de un componente. Al actualizar el estado de un componente, React se encarga de volver a renderizar solo las partes afectadas de la interfaz de usuario, lo que mejora el rendimiento de la aplicación.",
+      },
+    ],
+    exercise_d:
+      "La evaluación consta de 3 ejercicios los cuales se enfocan en abordar los conocimientos aprendidos en las semanas anteriores.",
+    exercises: [
+      {
+        content: "Código Primer Ejercicio",
+        img: s8_img_e1,
+        alt: "Ejercicio 1",
+      },
+      {
+        content: "Ejecución del Primer Ejercicio",
+        img: s8_img_e2,
+        alt: "Ejercicio 1 Ejecución",
+      },
+      {
+        content: "Código Segundo Ejercicio",
+        img: s8_img_e3,
+        alt: "Ejercicio 2",
+      },
+      {
+        content: "Ejecución del Segundo Ejercicio",
+        img: s8_img_e4,
+        alt: "Ejercicio 2 Ejecución",
+      },
+      {
+        content: "Código del Tercer Ejercicio",
+        img: s8_img_e5,
+        alt: "Ejercicio 3",
+      },
+      {
+        content: "Ejecución del Tercer Ejercicio",
+        img: s8_img_e6,
+        alt: "Ejercicio 3 Ejecución",
+      },
+    ],
+    reflect:
+      "Durante la semana 8 nos enfrentamos a una evaluación que abarcó los conocimientos y conceptos aprendidos en las semanas anteriores. Esta evaluación nos brindó la oportunidad de demostrar nuestra comprensión sobre las tecnologías y herramientas exploradas, así como nuestra capacidad para aplicarlas en situaciones prácticas.\nLos ejercicios propuestos durante esta semana nos desafiaron a desarrollar aplicaciones utilizando React y Vite. Tuvimos que crear múltiples componentes y aplicar conceptos como la manipulación del DOM, la generación de combinaciones de colores RGB y la gestión del tiempo en un cronómetro. Estos desafíos nos permitieron poner a prueba nuestros conocimientos y habilidades en el desarrollo web.\nA través de estos ejercicios, pudimos experimentar con la creación de componentes reutilizables, el uso de props y estado en React, y la aplicación de estilos CSS para mejorar la apariencia y funcionalidad de nuestras aplicaciones.\nLa semana 8 fue una oportunidad para reflexionar sobre nuestro progreso en el curso y evaluar nuestro nivel de comprensión de los conceptos clave. Nos permitió identificar nuestras fortalezas y áreas de mejora en el desarrollo web, lo que nos impulsa a seguir aprendiendo y perfeccionando nuestras habilidades.\nAdemás, esta semana nos recordó la importancia de la práctica continua y la aplicación de los conocimientos en ejercicios prácticos. La experiencia de resolver problemas y desarrollar aplicaciones reales nos ayuda a consolidar nuestros conocimientos y nos prepara para enfrentar futuros desafíos en el desarrollo web.",
+    url: "/semana?id=8#inits",
+  },
+  {
+    number: "09",
+    theme: "Vite: Routes y Styles-hooks",
+    description:
+      "Nos adentramos en el mundo de las rutas (routes) y los estilos con hooks en Vite para la gestión en una aplicación web.",
+    img_principal: s9_img_p,
+    labels: [{ name: "Vite", color: "blue" }],
+    content:
+      "Durante la semana 9 nos adentramos en el mundo de las rutas (routes) y los estilos con hooks en Vite. Esta semana estuvo enfocada en explorar cómo gestionar la navegación en una aplicación web utilizando rutas y cómo aplicar estilos de manera más eficiente utilizando hooks en el entorno de desarrollo rápido de Vite.\n\tRoutes\nLas rutas son un componente fundamental en el desarrollo de aplicaciones web, ya que permiten a los usuarios navegar entre diferentes páginas y secciones de la aplicación. A través de Vite, aprendimos cómo configurar y gestionar rutas para mejorar la experiencia del usuario al interactuar con nuestra aplicación.\n\tStyled Hooks\nAdemás, esta semana exploramos cómo mejorar la organización y el rendimiento de los estilos en nuestras aplicaciones utilizando hooks en Vite. Los hooks son funciones especiales que nos permiten utilizar características avanzadas en nuestros componentes de manera más sencilla y reutilizable. Aprender sobre los hooks de estilos en Vite nos brindó herramientas valiosas para aplicar estilos de manera más efectiva y mantener un código más limpio y estructurado.",
+    definition: [
+      {
+        name: "Rutas (Routes)",
+        notion:
+          "En el desarrollo de aplicaciones web, las rutas se refieren a las URL que permiten a los usuarios navegar entre diferentes páginas y secciones de la aplicación. Las rutas son esenciales para proporcionar una experiencia de navegación fluida y facilitar la interacción del usuario con la aplicación.",
+      },
+      {
+        name: "Enrutamiento (Routing)",
+        notion:
+          "El enrutamiento es el proceso de asociar las rutas definidas en una aplicación con los componentes correspondientes. Se implementa el enrutamiento en Vite para que cada ruta se vincule con el componente adecuado, lo que permite cargar y renderizar el contenido correcto cuando los usuarios acceden a una URL específica.",
+      },
+      {
+        name: "Estilos con Hooks",
+        notion:
+          "Los hooks son funciones especiales de React que permiten a los desarrolladores utilizar características avanzadas y compartir lógica entre componentes de manera más eficiente.",
+      },
+      {
+        name: "Estilos Condicionales",
+        notion:
+          "Los estilos condicionales son una forma de aplicar estilos basados en ciertas condiciones o estados en nuestros componentes.",
+      },
+    ],
+    exercise_d:
+      "Se desarrolló dos aplicaciones para el Route y Styled Hooks. En la primera aplicación se explora el Route y su dinámica para administrar el acceso a las páginas. En la segunda aplicación se realizó hooks estilizados los cuales brindan herramientas valiosas para aplicar estilos de manera más efectiva y mantener un código más limpio y estructurado",
+    exercises: [
+      {
+        content: "Código para Routing",
+        img: s9_img_e1,
+        alt: "Ejercicio 1",
+      },
+      {
+        content: "Ejecución de Routing en Vite",
+        img: s9_img_e2,
+        alt: "Ejercicio 1 Ejecución",
+      },
+      {
+        content: "Código Styled Hooks",
+        img: s9_img_e3,
+        alt: "Ejercicio 2",
+      },
+      {
+        content: "Ejecución Styled Hooks",
+        img: s9_img_e4,
+        alt: "Ejercicio 2 Ejecución",
+      },
+      {
+        content: "Ejecución Styled Hooks",
+        img: s9_img_e5,
+        alt: "Ejercicio 2 Ejecución",
+      },
+    ],
+    reflect:
+      "Durante la semana 9 del curso nos sumergimos en el mundo de las rutas y los estilos con hooks en Vite. Fue una semana emocionante y enriquecedora, ya que pudimos aprender cómo gestionar de manera efectiva la navegación en una aplicación web y cómo aplicar estilos de manera más eficiente y reutilizable.\nA través del enfoque en las rutas, comprendimos la importancia de ofrecer una experiencia de navegación fluida y estructurada a los usuarios. Aprendimos cómo configurar y gestionar las rutas utilizando Vite y React Router, lo que nos permitió asociar las URL con los componentes correspondientes y cargar el contenido adecuado según la página que el usuario esté visitando.\nAdemás, exploramos cómo aplicar estilos utilizando hooks en Vite y cómo utilizar CSS Modules para mantener una organización más cohesiva y modular de nuestros estilos. Los hooks nos brindaron una forma más eficiente de manejar los estilos en nuestros componentes, lo que resultó en un código más limpio y reutilizable.\nLa semana 9 también nos introdujo en el mundo de los estilos condicionales, que nos permiten adaptar la apariencia de nuestros componentes según ciertas condiciones o estados. Esta capacidad de personalización nos proporcionó una mayor flexibilidad para ofrecer una experiencia más interactiva y atractiva a los usuarios.\nEn general, la semana 9 fue una etapa fundamental en nuestro proceso de aprendizaje en el desarrollo de aplicaciones web. Nos permitió mejorar nuestras habilidades en el manejo de rutas y estilos, lo que contribuirá a construir aplicaciones web más eficientes y profesionales en el futuro.",
+    url: "/semana?id=9#inits",
+  },
+  {
+    number: "10",
+    theme: "Vite: CRUD a un archivo Json",
+    description:
+      "Creación de un CRUD (Create, Read, Update, Delete) utilizando Vite el cual nos permitió interactuar con un archivo JSON.",
+    img_principal: s10_img_p,
+    labels: [
+      { name: "Vite", color: "blue" },
+      { name: "Json", color: "orange" },
+    ],
+    content:
+      "En esta semana realizamos en la creación de un CRUD (Create, Read, Update, Delete) utilizando Vite. Este CRUD nos permitió interactuar con un archivo JSON, lo que nos brindó la capacidad de crear, leer, actualizar y eliminar datos almacenados en ese archivo.\n\tCRUD\nEl concepto de CRUD es fundamental en el desarrollo de aplicaciones web, ya que representa las operaciones básicas para administrar datos. A través de Vite, aprendimos cómo implementar estas operaciones de manera eficiente y reutilizable, lo que nos permitió desarrollar una aplicación web capaz de gestionar información de una manera sencilla y efectiva.\n\nDurante esta semana, pudimos explorar cómo utilizar Vite para manipular datos en un archivo JSON y cómo integrar formularios y eventos para permitir a los usuarios interactuar con la aplicación y modificar los datos almacenados. Además, aprendimos cómo aplicar las operaciones CRUD en la interfaz de usuario para proporcionar una experiencia de usuario fluida y amigable.",
+    definition: [
+      {
+        name: "CRUD (Create, Read, Update, Delete)",
+        notion:
+          "El CRUD es un acrónimo que representa las operaciones básicas para administrar datos en una aplicación. Estas operaciones incluyen Crear (Create) nuevos registros, Leer (Read) la información almacenada, Actualizar (Update) los datos existentes y Eliminar (Delete) registros del sistema.",
+      },
+      {
+        name: "Archivo JSON",
+        notion:
+          "JSON (JavaScript Object Notation) es un formato de intercambio de datos que se utiliza comúnmente para almacenar y transmitir información en aplicaciones web.",
+      },
+      {
+        name: "Interacción con Formularios",
+        notion:
+          "Los formularios son elementos fundamentales en las aplicaciones web para recopilar y enviar datos del usuario.",
+      },
+    ],
+    exercise_d:
+      "El ejercicio se basa en la creación de una aplicación en Vite que realiza las operaciones de un CRUD a un archivo Json que contiene todos los datos.",
+    exercises: [
+      {
+        content: "Código para CRUD en Vite",
+        img: s10_img_e1,
+        alt: "Ejercicio 1",
+      },
+      {
+        content: "Ejecución de la Aplicación",
+        img: s10_img_e2,
+        alt: "Ejercicio 1 Ejecución",
+      },
+    ],
+    reflect:
+      "La semana 10 fue una etapa enriquecedora y desafiante, ya que nos sumergimos en la creación de un CRUD utilizando Vite. Durante esta semana, aprendimos cómo aplicar las operaciones CRUD (Create, Read, Update, Delete) en una aplicación web, lo que nos permitió gestionar y manipular datos almacenados en un archivo JSON.\nLa experiencia de construir un CRUD nos brindó una comprensión más profunda de cómo interactuar con archivos JSON y cómo manejar la creación, lectura, actualización y eliminación de registros en una aplicación. Aprendimos a utilizar Vite para gestionar eventos, formularios y rutas, lo que nos permitió desarrollar una interfaz de usuario interactiva y funcional.\nUna de las principales lecciones que obtuvimos de esta semana fue la importancia de la organización y la reutilización de componentes. A medida que construíamos la aplicación CRUD, nos dimos cuenta de la necesidad de crear componentes reutilizables que nos permitieran mantener un código más limpio, modular y fácil de mantener. Esta práctica nos ayudó a mejorar la eficiencia en el desarrollo y a construir una arquitectura más sólida para nuestra aplicación.\nAdemás, la semana 10 nos recordó la importancia de seguir practicando y aplicando los conocimientos adquiridos en proyectos prácticos. La creación de un CRUD fue una oportunidad valiosa para consolidar nuestros conocimientos en el desarrollo web y para enfrentar desafíos reales que nos ayudaron a fortalecer nuestras habilidades.",
+    url: "/semana?id=10#inits",
+  },
+  {
+    number: "11",
+    theme: "Next.js: CRUD y guardado en Carpetas",
+    description:
+      "Nos adentramos en la creación de un CRUD con Next.js, pero con una adición significativa",
+    img_principal: s11_img_p,
+    labels: [
+      { name: "Nextjs", color: "black" },
+      { name: "Json", color: "orange" },
+    ],
+    content:
+      "Durante la semana 11 nos adentramos en la creación de un CRUD con Next.js, pero con una adición significativa: la capacidad de guardar imágenes en una carpeta y gestionar su manipulación junto con los datos almacenados en un archivo JSON.\n\tUtilización de Nextjs\nNext.js es un framework de React que nos permite construir aplicaciones web del lado del servidor (SSR) y del lado del cliente (CSR) de manera eficiente y sencilla. Durante esta semana, exploramos cómo utilizar Next.js para implementar operaciones CRUD y cómo integrar el manejo de imágenes para mejorar la experiencia del usuario y la funcionalidad de nuestra aplicación.\n\tCRUD y Almacenamiento\nLa combinación del CRUD con el almacenamiento y manipulación de imágenes nos proporcionó una experiencia completa en el desarrollo de aplicaciones web. Aprendimos cómo trabajar con el sistema de archivos y cómo gestionar el almacenamiento y recuperación de imágenes junto con la información en un archivo JSON. También exploramos cómo utilizar formularios y eventos en Next.js para permitir a los usuarios cargar y modificar imágenes, así como realizar operaciones CRUD en los datos asociados.",
+    definition: [
+      {
+        name: "Next.js",
+        notion:
+          "Next.js es un framework de React para el desarrollo de aplicaciones web del lado del servidor (SSR) y del lado del cliente (CSR). Proporciona una amplia gama de características, incluyendo el enrutamiento y la generación de páginas estáticas y dinámicas.",
+      },
+      {
+        name: "CRUD (Create, Read, Update, Delete)",
+        notion:
+          "El CRUD es un acrónimo que representa las operaciones básicas para administrar datos en una aplicación. Estas operaciones incluyen Crear (Create) nuevos registros, Leer (Read) la información almacenada, Actualizar (Update) los datos existentes y Eliminar (Delete) registros del sistema.",
+      },
+      {
+        name: "Archivo JSON",
+        notion:
+          "JSON (JavaScript Object Notation) es un formato de intercambio de datos que se utiliza comúnmente para almacenar y transmitir información en aplicaciones web.",
+      },
+      {
+        name: "Manipulación de Archivos",
+        notion:
+          "Trabajar con archivos en aplicaciones web es una habilidad crucial. En Next.js, aprendimos cómo manipular archivos en el servidor y cómo realizar operaciones como cargar, guardar y eliminar imágenes desde nuestra aplicación. Esta capacidad nos permitió gestionar de manera efectiva el contenido multimedia de nuestra aplicación CRUD.",
+      },
+      {
+        name: "Interacción con Formularios",
+        notion:
+          "Los formularios son elementos fundamentales en las aplicaciones web para recopilar y enviar datos del usuario.",
+      },
+    ],
+    exercise_d:
+      "El ejercicio se basa en la creación de una aplicación en Vite que realiza las operaciones de un CRUD a un archivo Json que contiene todos los datos.",
+    exercises: [
+      {
+        content: "Código para CRUD y guardado de Archivos en Next.js",
+        img: s11_img_e1,
+        alt: "Ejercicio 1",
+      },
+      {
+        content: "Ejecución de la Aplicación",
+        img: s11_img_e2,
+        alt: "Ejercicio 1 Ejecución",
+      },
+    ],
+    reflect:
+      "Durante esta semana, nos sumergimos en el emocionante mundo de Next.js y exploramos cómo crear un CRUD que también maneja el almacenamiento y manipulación de imágenes. Fue un paso significativo en nuestro proceso de aprendizaje, ya que pudimos aplicar los conocimientos adquiridos en las semanas anteriores para construir una aplicación web más completa y funcional.\nUno de los aspectos más interesantes de la semana 11 fue aprender sobre Next.js y su capacidad para desarrollar aplicaciones web del lado del servidor y del lado del cliente. Descubrimos cómo utilizar su enrutamiento y generación de páginas estáticas y dinámicas para mejorar la eficiencia y rendimiento de nuestra aplicación.\nAdemás, trabajar con la gestión de archivos y la manipulación de imágenes fue una experiencia enriquecedora. Aprendimos cómo almacenar imágenes en una carpeta en el servidor y cómo asociarlas con los datos del CRUD. Esto nos permitió brindar a los usuarios una experiencia más visual y atractiva al interactuar con la aplicación.\nLa semana 11 también nos permitió fortalecer nuestras habilidades en la manipulación de formularios y eventos en Next.js. Aprendimos cómo manejar eventos de carga de imágenes y cómo procesar formularios para realizar operaciones CRUD de manera efectiva.\nUna de las lecciones más importantes que obtuvimos de esta semana fue la importancia de la experiencia del usuario (UX). Aprendimos cómo mejorar la interacción y satisfacción del usuario al proporcionar una aplicación web que es intuitiva, fácil de usar y visualmente atractiva. La gestión de imágenes y el enfoque en la experiencia del usuario nos permitieron ofrecer una aplicación más completa y valiosa para nuestros usuarios.",
+    url: "/semana?id=11#inits",
+  },
+  {
+    number: "12",
+    theme: "Inicio en Tomcat",
+    description:
+      "Nos sumergimos en el mundo de Tomcat y Java para comenzar a crear páginas web dinámicas y aplicaciones Java.",
+    img_principal: s12_img_p,
+    labels: [
+      { name: "Tomcat", color: "orange" },
+      { name: "Java", color: "red" },
+    ],
+    content:
+      "Durante la semana 12 del curso nos sumergimos en el mundo de Tomcat y Java para comenzar a crear páginas web dinámicas y aplicaciones Java en un servidor de aplicaciones. Esta semana marcó un punto importante en nuestro aprendizaje, ya que nos introdujo en el desarrollo backend y nos permitió utilizar Tomcat como nuestro servidor para alojar y ejecutar nuestras aplicaciones web.\n\tJava y Tomcat\nEl proceso comenzó con la instalación de Java y la configuración de Tomcat en nuestro entorno de desarrollo. Aprendimos cómo configurar Tomcat en IntelliJ, lo que nos permitió utilizar esta herramienta para desarrollar aplicaciones Java y desplegarlas en el servidor de Tomcat.\n\nAdemás, aprendimos los conceptos básicos de cómo crear páginas web dinámicas utilizando Java Server Pages (JSP)\nEsta semana nos brindó una visión más amplia del desarrollo web, ya que exploramos tanto el frontend como el backend de una aplicación. Comprendimos la importancia de la interacción entre el frontend y el backend para crear aplicaciones web completas y funcionales.",
+    definition: [
+      {
+        name: "Apache Tomcat",
+        notion:
+          "Tomcat es un servidor web y contenedor de servlets de código abierto desarrollado por Apache Software Foundation. Es ampliamente utilizado para alojar aplicaciones web desarrolladas en Java y permite ejecutar servlets y JavaServer Pages (JSP) para generar contenido web dinámico.",
+      },
+      {
+        name: "Java Server Pages (JSP)",
+        notion:
+          "JSP es una tecnología que permite generar contenido web dinámico utilizando código Java embebido dentro de páginas HTML.",
+      },
+      {
+        name: "Servlets",
+        notion:
+          "Los servlets son clases Java que extienden las capacidades de un servidor web para procesar solicitudes HTTP y generar respuestas dinámicas.",
+      },
+      {
+        name: "IntelliJ IDEA",
+        notion:
+          "IntelliJ IDEA es un entorno de desarrollo integrado (IDE) muy utilizado para el desarrollo de aplicaciones Java y otros lenguajes de programación. ",
+      },
+    ],
+    exercise_d:
+      "El ejercicio se basa en la instalación y configuración inicial de Apache Tomcat, además de la exploración para crear páginas web dinámicas basado en Java.",
+    exercises: [
+      {
+        content: "Código en IntellIj basado en Jsp",
+        img: s12_img_e1,
+        alt: "Códigos Jsp",
+      },
+      {
+        content: "Configuración de IntellIj para la Ejecución",
+        img: s12_img_e2,
+        alt: "Configuración IntellIj",
+      },
+      {
+        content: "Página de Inicio de Apache Tomcat",
+        img: s12_img_e3,
+        alt: "Página Tomcat",
+      },
+      {
+        content: "Ejecución de la Aplicación",
+        img: s12_img_e4,
+        alt: "Ejecución",
+      },
+    ],
+    reflect:
+      "La semana 12 ha sido un emocionante viaje hacia el mundo del desarrollo backend utilizando Tomcat y Java. Durante esta semana, hemos tenido la oportunidad de expandir nuestros horizontes en el desarrollo web, comprendiendo cómo construir aplicaciones web completas y dinámicas que no solo se centran en el frontend, sino también en el backend.\nLa instalación y configuración de Tomcat, junto con el uso del Java Development Kit (JDK) y el poderoso entorno de desarrollo IntelliJ IDEA, nos ha permitido adentrarnos en el desarrollo de aplicaciones Java y familiarizarnos con la creación de servlets y JavaServer Pages (JSP). A medida que avanzábamos, aprendimos cómo utilizar JSP para generar contenido web dinámico, combinando código Java con HTML para crear páginas web que responden a las solicitudes de los usuarios en tiempo real.\nAdemás, la experiencia de desplegar nuestras aplicaciones en el servidor Tomcat nos enseñó cómo gestionar aplicaciones en un entorno de producción, asegurándonos de que estén disponibles para los usuarios de manera confiable.\nLa semana 12 también reforzó la importancia de un enfoque integral en el desarrollo web, abordando tanto el frontend como el backend. La conexión entre ambas partes es esencial para crear aplicaciones web completas y sólidas.",
+    url: "/semana?id=12#inits",
+  },
+  {
+    number: "13",
+    theme: "CRUD en Tomcat con MySQL",
+    description:
+      "Nos enfocamos en utilizar Tomcat como servidor web y una base de datos MySQL para realizar operaciones CRUD.",
+    img_principal: s13_img_p,
+    labels: [
+      { name: "Tomcat", color: "orange" },
+      { name: "Java", color: "red" },
+      { name: "MySQL", color: "amber" },
+    ],
+    content:
+      "Durante esta semana nos enfocamos en utilizar Tomcat como servidor web y una base de datos MySQL para realizar operaciones CRUD (Create, Read, Update, Delete) en nuestras aplicaciones web desarrolladas con JSP. Esta semana fue una continuación del desarrollo backend con JSP que iniciamos en la semana 12, pero ahora incorporando el uso de una base de datos para almacenar y gestionar los datos de manera persistente.\n\tCombinación Tomcat y MySQL\nLa combinación de Tomcat y MySQL nos brindó una plataforma poderosa para construir aplicaciones web más completas y funcionales. Aprendimos cómo conectar nuestras aplicaciones JSP con la base de datos MySQL mediante JDBC (Java Database Connectivity), lo que nos permitió interactuar con los datos almacenados en la base de datos y realizar operaciones CRUD para crear, leer, actualizar y eliminar registros.\n\tMySQL\nDurante esta semana, exploramos cómo diseñar y crear tablas en la base de datos MySQL para representar las entidades de nuestra aplicación, cómo insertar y recuperar datos desde la base de datos utilizando JSP, y cómo implementar formularios y eventos para gestionar las operaciones CRUD desde el frontend.\n\nAdemás, profundizamos en el concepto de persistencia de datos, comprendiendo la importancia de mantener la integridad y consistencia de los datos a lo largo del tiempo, y cómo nuestra aplicación puede asegurarse de que los datos estén protegidos y actualizados adecuadamente en la base de datos.",
+    definition: [
+      {
+        name: "Apache Tomcat",
+        notion:
+          "Tomcat es un servidor web y contenedor de servlets de código abierto desarrollado por Apache Software Foundation. Es ampliamente utilizado para alojar aplicaciones web desarrolladas en Java y permite ejecutar servlets y JavaServer Pages (JSP) para generar contenido web dinámico.",
+      },
+      {
+        name: "Java Server Pages (JSP)",
+        notion:
+          "JSP es una tecnología que permite generar contenido web dinámico utilizando código Java embebido dentro de páginas HTML.",
+      },
+      {
+        name: "MySQL",
+        notion:
+          "MySQL es un sistema de gestión de bases de datos relacional ampliamente utilizado.",
+      },
+      {
+        name: "Tablas de Base de Datos",
+        notion:
+          "Las tablas de base de datos son estructuras que contienen los datos organizados en filas y columnas.",
+      },
+      {
+        name: "JDBC (Java Database Connectivity)",
+        notion:
+          "JDBC es una API de Java que proporciona métodos para conectarse y manipular bases de datos desde aplicaciones Java.",
+      },
+    ],
+    exercise_d:
+      "El ejercicio se basa en la utilización de Apache Tomcat con JSP, para realizar operaciones CRUD a una base de datos en MySQL.",
+    exercises: [
+      {
+        content: "Código en IntellIj basado en Jsp",
+        img: s13_img_e1,
+        alt: "Códigos Jsp",
+      },
+      {
+        content: "Base de Datos en MySQL",
+        img: s13_img_e2,
+        alt: "Base de Datos",
+      },
+      {
+        content: "Ejecución de Aplicación",
+        img: s13_img_e3,
+        alt: "Ejecución",
+      },
+      {
+        content: "Ejecución de la Aplicación",
+        img: s13_img_e4,
+        alt: "Ejecución",
+      },
+    ],
+    reflect:
+      "En la semana 13 del curso nos hemos adentrado en el mundo del desarrollo backend con JSP y la gestión de bases de datos MySQL. Esta semana ha sido una continuación natural de nuestro viaje en el desarrollo web, ya que nos ha permitido comprender cómo crear aplicaciones web más completas y funcionales al incorporar la persistencia de datos y las operaciones CRUD.\nLa experiencia de trabajar con Tomcat y JSP nos ha brindado una nueva perspectiva sobre cómo interactuar con el servidor web y generar contenido dinámico en nuestras páginas. Aprendimos cómo utilizar JSP para combinar código Java con HTML y realizar consultas a la base de datos para obtener y actualizar información de manera dinámica.\nLa interacción con la base de datos MySQL a través de JDBC ha sido un aspecto destacado de la semana. Aprendimos cómo diseñar y crear tablas en la base de datos para representar nuestras entidades y cómo utilizar operaciones CRUD para gestionar los datos almacenados. La persistencia de datos se convirtió en una parte esencial del desarrollo, ya que nos permitió asegurar que los cambios realizados por los usuarios en la aplicación se mantuvieran de manera consistente y duradera en la base de datos.\nAdemás, la semana 13 nos permitió reflexionar sobre la importancia de la gestión adecuada de formularios y eventos en nuestras páginas JSP. Aprendimos cómo utilizar formularios para recopilar datos del usuario y cómo gestionar eventos para llevar a cabo operaciones CRUD en respuesta a las acciones del usuario.",
+    url: "/semana?id=13#inits",
+  },
+  {
+    number: "14",
+    theme: "Inicio en Spring",
+    description:
+      "Nos adentramos en el mundo de Spring, un poderoso framework de desarrollo de aplicaciones Java, ampliamente utilizado en la industria.",
+    img_principal: s14_img_p,
+    labels: [
+      { name: "Spring", color: "green" },
+      { name: "Java", color: "red" },
+    ],
+    content:
+      "Durante la semana 14 nos adentramos en el mundo de Spring, un poderoso y popular framework de desarrollo de aplicaciones Java. Esta semana ha sido un paso significativo en nuestro aprendizaje, ya que Spring es una herramienta ampliamente utilizada en el desarrollo web y nos brinda una gran cantidad de funcionalidades y ventajas para crear aplicaciones robustas y escalables.\n\tSpring\nDurante esta semana, nos familiarizamos con los conceptos básicos de Spring y cómo se utiliza en el desarrollo de aplicaciones web. Exploramos cómo Spring proporciona una infraestructura sólida para abordar desafíos comunes en el desarrollo, como la inyección de dependencias, la gestión de transacciones y la seguridad.\n\tSpring Initializr\nAdemás, aprendimos sobre Spring Initializr, una herramienta que nos facilita la configuración inicial de nuestros proyectos Spring. Mediante https://start.spring.io/, podemos seleccionar las dependencias y configuraciones específicas que necesitamos para nuestro proyecto, lo que nos permite personalizar nuestras aplicaciones y tener un punto de partida sólido para desarrollar aplicaciones web con Spring.",
+    definition: [
+      {
+        name: "Spring Framework",
+        notion:
+          "Spring es un framework de desarrollo de aplicaciones Java que proporciona una infraestructura sólida para crear aplicaciones empresariales escalables y de alta calidad. Spring se basa en la inversión de control (IoC) y la inyección de dependencias para gestionar la configuración y las dependencias de los componentes de la aplicación.",
+      },
+      {
+        name: "Inyección de Dependencias",
+        notion:
+          "La inyección de dependencias es un patrón de diseño utilizado en Spring para suministrar las dependencias requeridas por una clase en lugar de que la clase las cree por sí misma. Esto permite una mejor separación de preocupaciones y facilita el desarrollo y mantenimiento de la aplicación.",
+      },
+      {
+        name: "Spring Initializr",
+        notion:
+          "Spring Initializr es una herramienta en línea que facilita la creación y configuración inicial de proyectos Spring. Permite seleccionar las dependencias y configuraciones específicas que se desean para el proyecto, lo que proporciona un punto de partida sólido y personalizado para el desarrollo de aplicaciones web con Spring.",
+      },
+    ],
+    exercise_d:
+      "El ejercicio se basa en la creación de un proyecto basado en Spring Framework utilizando Spring Initializr y la configuración realiza en IntellIj.",
+    exercises: [
+      {
+        content: "Spring Initializr",
+        img: s14_img_e1,
+        alt: "Spring Initializr",
+      },
+      {
+        content: "Proyecto en IntellIj con las dependencias cargadas",
+        img: s14_img_e2,
+        alt: "Proyecto en IntellIj",
+      },
+      {
+        content: "Configuración para ejecutar proyecto",
+        img: s14_img_e3,
+        alt: "Configuración",
+      },
+    ],
+    reflect:
+      "La semana 14 del curso ha sido una semana emocionante y enriquecedora, ya que nos ha introducido en el fascinante mundo de Spring Framework. Durante esta semana, hemos aprendido sobre la poderosa infraestructura que Spring proporciona para el desarrollo de aplicaciones Java, y cómo puede facilitar el proceso de creación de aplicaciones empresariales robustas y escalables.\nUno de los conceptos clave que hemos explorado es la inyección de dependencias, que es fundamental en el enfoque de desarrollo de Spring.\nEl uso de Spring Initializr ha sido una experiencia gratificante, ya que nos ha permitido personalizar nuestros proyectos y seleccionar las dependencias y configuraciones específicas que necesitamos para nuestras aplicaciones. Esta herramienta nos ha proporcionado un punto de partida sólido para el desarrollo y nos ha ahorrado tiempo en la configuración inicial.\nEn general, la semana 14 ha sido una introducción valiosa a Spring Framework y nos ha proporcionado una base sólida para seguir explorando y aplicando sus capacidades en futuros proyectos. Estamos emocionados de seguir aprendiendo y desarrollando nuestras habilidades en el desarrollo web utilizando Spring y otras tecnologías avanzadas. La semana 14 ha sido un paso importante en nuestro viaje en el desarrollo web y estamos ansiosos por seguir creciendo como desarrolladores web competentes y versátiles.",
+    url: "/semana?id=14#inits",
+  },
+  {
+    number: "15",
+    theme: "RESTful en Spring con MySQL",
+    description:
+      "Exploramos cómo utilizar Spring Framework para crear servicios RESTful que interactúen con una base de datos MySQL",
+    img_principal: s15_img_p,
+    labels: [
+      { name: "Spring", color: "green" },
+      { name: "Java", color: "red" },
+      { name: "MySQL", color: "amber" },
+    ],
+    content:
+      "Durante la semana 15 del curso hemos explorado cómo utilizar Spring Framework para crear servicios RESTful que interactúen con una base de datos MySQL. Esta semana ha sido una continuación natural de nuestro aprendizaje en el desarrollo backend con Spring, pero enfocado en cómo diseñar y construir una API REST que permita realizar operaciones CRUD (Create, Read, Update, Delete) en los datos almacenados en la base de datos.\n\tEnfoque RESTful\nMediante el enfoque RESTful, hemos aprendido cómo diseñar endpoints de API que sigan las convenciones de REST y cómo utilizar anotaciones proporcionadas por Spring, como @RestController, @GetMapping, @PostMapping, @PutMapping y @DeleteMapping, para definir las operaciones que queremos realizar.\n\tPostman\nAdemás, hemos utilizado Postman, una herramienta popular para probar y depurar servicios web, para realizar las operaciones CRUD en nuestra API y comprobar su funcionamiento. Postman nos ha permitido enviar solicitudes HTTP a nuestros endpoints y recibir las respuestas correspondientes, lo que nos ha facilitado la verificación de la funcionalidad de nuestra API.",
+    definition: [
+      {
+        name: "Inversión de Control (IoC)",
+        notion:
+          "La inversión de control es un principio de diseño en el que el control de la creación y gestión de objetos se delega a un contenedor o framework. En el contexto de Spring, esto significa que el contenedor de Spring es responsable de crear y administrar los objetos de la aplicación, lo que permite una mayor flexibilidad y desacoplamiento entre los componentes.",
+      },
+      {
+        name: "API RESTful",
+        notion:
+          "Una API RESTful es un conjunto de endpoints que siguen los principios de la arquitectura REST (Representational State Transfer). Permite a las aplicaciones comunicarse y realizar operaciones CRUD (Create, Read, Update, Delete) en recursos a través de solicitudes HTTP.",
+      },
+      {
+        name: "Endpoints",
+        notion:
+          "Los endpoints son las URL específicas a las que las aplicaciones pueden enviar solicitudes HTTP para interactuar con la API. Cada endpoint representa una operación específica que se puede realizar en el servidor, como obtener datos, agregar nuevos registros o actualizar información.",
+      },
+      {
+        name: "Anotaciones en Spring para API REST",
+        notion:
+          " Spring proporciona un conjunto de anotaciones para definir los endpoints de la API REST. Algunas de las anotaciones más comunes incluyen @RestController, @GetMapping, @PostMapping, @PutMapping y @DeleteMapping.",
+      },
+    ],
+    exercise_d:
+      "El ejercicio se basa en la creación de servicios RESTful que interactúen con una base de datos MySQL utlizando Spring Framework. Además, para evaluar los endpoints se utiliza Postman.",
+    exercises: [
+      {
+        content: "Proyecto RESTful en IntellIj",
+        img: s15_img_e1,
+        alt: "Proyecto",
+      },
+      {
+        content: "Prueba con Postman",
+        img: s15_img_e2,
+        alt: "Prueba con Postman",
+      },
+    ],
+    reflect:
+      "La semana 15 del curso ha sido una semana sumamente interesante y enriquecedora, ya que nos ha introducido en el mundo de la creación de API RESTful utilizando Spring Framework. Durante esta semana, hemos aprendido cómo diseñar y construir endpoints de API que sigan los principios de REST, permitiendo a nuestras aplicaciones interactuar con una base de datos MySQL mediante solicitudes HTTP.\nUna de las cosas más emocionantes de esta semana fue comprender cómo utilizar las anotaciones proporcionadas por Spring, como @RestController, @GetMapping, @PostMapping, @PutMapping y @DeleteMapping, para definir los endpoints de nuestra API y especificar qué operaciones CRUD se pueden realizar en cada recurso.\nAdemás, la experiencia de utilizar Postman para probar y depurar nuestra API fue muy valiosa. Postman nos permitió enviar solicitudes HTTP a nuestros endpoints y verificar la funcionalidad de nuestra API, lo que nos brindó la confianza de que nuestras operaciones CRUD estaban funcionando correctamente.\nA medida que avanzamos en la semana, pudimos apreciar cómo la creación de una API RESTful con Spring nos permite construir aplicaciones web más modulares y escalables. Al separar la lógica de negocio de la presentación de datos, hemos podido desarrollar servicios web que pueden ser consumidos por diferentes aplicaciones frontend, lo que aumenta la flexibilidad y la reutilización del código.",
+    url: "/semana?id=15#inits",
+  },
+  {
+    number: "16",
+    theme: "Proyecto Frontend y Backend",
+    description:
+      "En esta última semana hemos abordado un proyecto completo que combina el frontend utilizando y el backend utilizando Spring Framework.",
+    img_principal: s16_img_p,
+    labels: [
+      { name: "Spring", color: "green" },
+      { name: "MySQL", color: "amber" },
+      { name: "Nextjs", color: "black" },
+    ],
+    content:
+      "Durante la última semana del curso, hemos tenido la emocionante oportunidad de integrar tanto el frontend como el backend en una aplicación completa y funcional. En esta semana, nos hemos centrado en crear una aplicación utilizando Next.js para el frontend y Spring para el backend.\n\tProyecto\nEl objetivo de la aplicación era desarrollar un sistema con funcionalidad de autenticación y registro de usuarios, seguido de una página de administración de docentes con operaciones CRUD (Create, Read, Update, Delete). Esta integración entre el frontend y el backend nos ha permitido crear una aplicación web completa que puede manejar el ciclo completo de registro y autenticación de usuarios, así como la gestión de información relacionada con docentes.\n\nEn esta última semana, hemos combinado los conocimientos adquiridos a lo largo del curso para diseñar y desarrollar una aplicación que sea eficiente y práctica. Hemos utilizado Next.js para crear una interfaz de usuario atractiva y fácil de usar, mientras que Spring ha sido responsable de gestionar las operaciones CRUD y el almacenamiento de datos en la base de datos.\nLa integración entre frontend y backend ha sido una experiencia enriquecedora que nos ha permitido comprender cómo se comunican ambos lados de una aplicación web. Hemos aprendido a manejar las solicitudes y respuestas HTTP entre el frontend y el backend, así como a utilizar la autenticación para proteger ciertas rutas y funcionalidades.",
+    definition: [
+      {
+        name: "Aplicación Full Stack",
+        notion:
+          "Una aplicación Full Stack es aquella que integra tanto el frontend como el backend en una sola solución.",
+      },
+      {
+        name: "Frontend con Next.js",
+        notion:
+          "Next.js es un framework de desarrollo de aplicaciones web en React que nos ha permitido construir el frontend de nuestra aplicación. Next.js ofrece capacidades avanzadas como renderizado del lado del servidor, generación de páginas estáticas y enrutamiento sencillo, lo que facilita la creación de interfaces de usuario interactivas y receptivas.",
+      },
+      {
+        name: "Backend con Spring",
+        notion:
+          "Spring es un poderoso framework de desarrollo de aplicaciones Java que hemos utilizado para construir el backend de nuestra aplicación. Con Spring, hemos implementado la lógica de negocio, gestionado la autenticación de usuarios y manejado las operaciones CRUD en la base de datos.",
+      },
+      {
+        name: "Integración Frontend y Backend",
+        notion:
+          "La integración entre el frontend y el backend ha sido un aspecto clave en la última semana. Hemos aprendido a enviar solicitudes HTTP desde el frontend a las API REST en el backend, y a manejar las respuestas del backend en el frontend para actualizar la interfaz de usuario de manera adecuada.",
+      },
+    ],
+    exercise_d:
+      "El ejercicio se basa en desarrollar un sistema con funcionalidad de autenticación y registro de usuarios, seguido de una página de administración de docentes con operaciones CRUD (Create, Read, Update, Delete). Este sistema realiza una integración entre el frontend y el backend",
+    exercises: [
+      {
+        content: "Backend en IntellIj con Spring",
+        img: s16_img_e1,
+        alt: "Proyecto Backend",
+      },
+      {
+        content: "Frontend en Visual Studio Code con Next.js",
+        img: s16_img_e2,
+        alt: "Proeycto Frontend",
+      },
+      {
+        content: "Base de Datos en MySQL",
+        img: s16_img_e3,
+        alt: "Proeycto Base de Datos",
+      },
+      {
+        content: "Ejecución del Proyecto",
+        img: s16_img_e4,
+        alt: "Proeycto Ejecución",
+      },
+      {
+        content: "Ejecución del Proyecto",
+        img: s16_img_e5,
+        alt: "Proeycto Ejecución",
+      },
+      {
+        content: "Ejecución del Proyecto",
+        img: s16_img_e6,
+        alt: "Proeycto Ejecución",
+      },
+      {
+        content: "Ejecución del Proyecto",
+        img: s16_img_e7,
+        alt: "Proeycto Ejecución",
+      },
+      {
+        content: "Ejecución del Proyecto",
+        img: s16_img_e8,
+        alt: "Proeycto Ejecución",
+      },
+    ],
+    reflect:
+      "La última semana del curso ha sido un cierre emocionante y gratificante para nuestro aprendizaje en el desarrollo Full Stack. Durante esta semana, hemos logrado combinar todos los conocimientos adquiridos en el curso para crear una aplicación web completa que integra tanto el frontend con Next.js como el backend con Spring.\nLa experiencia de desarrollar una aplicación Full Stack nos ha permitido apreciar la importancia de la colaboración entre ambas partes de la aplicación. Hemos comprendido cómo se comunican el frontend y el backend a través de solicitudes y respuestas HTTP, y cómo cada uno desempeña un papel crucial en la funcionalidad global de la aplicación.\nLa implementación de la autenticación y el registro de usuarios nos ha enseñado a diseñar sistemas de seguridad para proteger datos sensibles y garantizar que solo usuarios autorizados puedan acceder a ciertas funcionalidades. Asimismo, la creación de la página de administración de docentes con operaciones CRUD nos ha brindado la capacidad de gestionar información de manera eficiente y cómoda.\nLa integración de Next.js y Spring nos ha permitido desarrollar una aplicación fluida y receptiva, y hemos aprendido a desplegar nuestra aplicación en un entorno de producción para compartir nuestro trabajo con otros usuarios.\nEn general, la última semana ha sido un reto gratificante que nos ha proporcionado una visión completa del desarrollo web Full Stack. Hemos adquirido la confianza para construir aplicaciones web más complejas y estamos entusiasmados de continuar nuestro camino como desarrolladores web. Esta experiencia nos ha dejado con una sensación de logro y satisfacción, y nos ha preparado para enfrentar nuevos desafíos y oportunidades en el desarrollo web en el futuro. Estamos agradecidos por la oportunidad de haber realizado este curso y estamos ansiosos de seguir creciendo en esta apasionante área del conocimiento.",
+    url: "/semana?id=16#inits",
   },
 ];

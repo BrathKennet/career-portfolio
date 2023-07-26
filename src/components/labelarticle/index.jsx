@@ -7,6 +7,8 @@ const colores = {
   amber: "bg-amber-500 hover:bg-amber-600",
   green: "bg-green-500 hover:bg-green-600",
   emerald: "bg-emerald-500 hover:bg-emerald-600",
+  black: "bg-slate-500 hover:bg-slate-600",
+  red: "bg-red-500 hover:bg-red-600",
 };
 
 const LabelArticle = ({name, color}) => {

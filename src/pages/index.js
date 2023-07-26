@@ -14,6 +14,12 @@ import icon_js from "../../public/icons/javascript.svg";
 import icon_react from "../../public/icons/react.svg";
 import icon_nextjs from "../../public/icons/nextjs.svg";
 import icon_tailwind from "../../public/icons/tailwind.svg";
+import icon_kotlin from "../../public/icons/kotlin.svg"
+import icon_java from "../../public/icons/java.svg"
+import icon_python from "../../public/icons/python.svg";
+import icon_php from "../../public/icons/php.svg";
+import icon_bootstrap from "../../public/icons/bootstrap.svg";
+import icon_spring from "../../public/icons/spring.svg";
 import ImageStyled from '../components/imagestyles'
 import { Typewriter } from 'react-simple-typewriter'
 
@@ -133,14 +139,32 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <Title text={"Tecnologías Exploradas"} right={false} />
         <div className="max-w-[700px] h-fit py-20 bg-[#13000E] z-10 mx-auto">
+          <p
+            className={`text-white block text-lg text- px-4 pb-12 m-auto max-w-[500px] text-center ${fonts.font_bree}`}
+            data-aos="fade-up"
+          >
+            Hasta el momento desde que ingresé a la universidad, he tenido la
+            oportunidad de explorar diversas tecnologías.
+          </p>
           <div className="grid md:grid-cols-6 grid-cols-3 mx-auto relative text-center w-full">
             <CardStyled img={icon_html} delay={"0"} />
             <CardStyled img={icon_css} delay={"100"} />
             <CardStyled img={icon_js} delay={"200"} />
-            <CardStyled img={icon_react} delay={"300"} />
-            <CardStyled img={icon_nextjs} delay={"400"} />
-            <CardStyled img={icon_tailwind} delay={"500"} />
+            <CardStyled img={icon_python} delay={"300"} />
+            <CardStyled img={icon_java} delay={"400"} />
+            <CardStyled img={icon_php} delay={"500"} />
+            <CardStyled img={icon_kotlin} delay={"0"} />
+            <CardStyled img={icon_spring} delay={"100"} />
+            <CardStyled img={icon_react} delay={"200"} />
+            <CardStyled img={icon_nextjs} delay={"300"} />
+            <CardStyled img={icon_tailwind} delay={"400"} />
+            <CardStyled img={icon_bootstrap} delay={"500"} />
           </div>
         </div>
       </section>
@@ -148,4 +172,6 @@ export default function Home() {
     </>
   );
 }
+
+
 
