@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '../../styles/Components.module.css'
 import profile from '../../../public/images/profile_img.png'
-import profile2 from "../../../public/images/profile_img_2.png";
 import Image from 'next/image'
 
 const ImageStyled = () => {
@@ -13,9 +12,9 @@ const ImageStyled = () => {
       >
         <div className={`${styles.image_inset} h-full w-full overflow-hidden`}>
           <Image
-            src={profile2}
+            src={profile}
             alt="profile"
-            className="block h-full w-full object-contain -rotate-45 scale-[1.1]"
+            className="block h-full w-full object-contain -rotate-45 scale-[1.5]"
           />
         </div>
       </div>
